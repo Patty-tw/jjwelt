@@ -1,0 +1,20 @@
+.active-tabs {
+  color: #ff7846;
+}
+
+.active-tabs::before {
+  content: "";
+  position: absolute;
+  top: -4px;
+  left: 50%;
+  transform: translateX(-50%)
+}
+
+.content {
+    display: none;
+    padding: 10px;
+}
+
+.active-content {
+    display: flex;
+}
