@@ -4,7 +4,7 @@ export default function Hero() {
     return (
         <div className="flex mx-16 my-10 items-center rounded-md bg-orange-50">
             <div>
-                <img className="column-3" src="./images/jjwelt-logo.png" />
+                <img className="column-3" src="./images/jjwelt-logo.png" alt="logo"/>
             </div>
 
             <div className="items-center">
