@@ -25,7 +25,7 @@ export default function Form() {
                         value={formik.values.enquiry}
                         onChange = {formik.handleChange}
                         name = "enquiry"
-                        className="appearance-none block w-full bg-gray-200 text-gray-700 border border-gray-200 rounded py-3 px-4 mb-3 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
+                        className="w-full border-2 border-gray-500 p-2 rounded-md focus:border-teal-500 focus:ring-teal-500 mb-3 py-3 px-4">
                         <option>-- Choose --</option>
                         <option>General Enquiry</option>
                         <option>Sample request</option>
