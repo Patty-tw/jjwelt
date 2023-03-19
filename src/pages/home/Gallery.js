@@ -35,6 +35,13 @@ export default function Gallery() {
                 <Link to="/leather-welt" className="flex absolute inset-0 justify-center items-center ease-in-out 
                                                     duration-200 text-4xl font-semibold opacity-0 hover:opacity-100 hover:backdrop-blur-sm">Outsole Stock Fitting</Link>
             </div>
+            <div className="relative overflow-hidden border border-amber-700">
+                <img
+                    className="block w-full aspect-square object-cover object-center hover:blur-sm"
+                    src="./images/desiccant.jpg" alt="outsole stock fitting" />
+                <Link to="/leather-welt" className="flex absolute inset-0 justify-center items-center ease-in-out 
+                                                    duration-200 text-4xl font-semibold opacity-0 hover:opacity-100 hover:backdrop-blur-sm">Desiccant</Link>
+            </div>
         </div>
     )
 }
