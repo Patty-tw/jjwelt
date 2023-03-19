@@ -27,9 +27,10 @@ export default function Navbar() {
                     <Link to="/" className="mr-4">Home</Link>
                     <Link to="/aboutus" className="mr-4">About us</Link>
 
-                    <Menu>
-                        <Menu.Button to="/product" className="inline-flex">Product</Menu.Button>
-                        <ChevronDownIcon className="h-5 w-5 text-gray-400" aria-hidden="true" />
+                    <Menu as="div" className="relative inline-block text-left">
+                        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5">Product
+                            <ChevronDownIcon className="mt-1 -mr-1 h-5 w-5" aria-hidden="true" />
+                        </Menu.Button>
 
                         <Transition
                             as={Fragment}
@@ -44,8 +45,8 @@ export default function Navbar() {
                                 <div className="py-1">
                                     <Menu.Item>
                                         {({ active }) => (
-                                            <Link 
-                                                to="/leather-welt" 
+                                            <Link
+                                                to="/leather-welt"
                                                 className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
@@ -57,8 +58,8 @@ export default function Navbar() {
                                     </Menu.Item>
                                     <Menu.Item>
                                         {({ active }) => (
-                                            <Link 
-                                                to="/plastic-welt" 
+                                            <Link
+                                                to="/plastic-welt"
                                                 className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
@@ -70,8 +71,8 @@ export default function Navbar() {
                                     </Menu.Item>
                                     <Menu.Item>
                                         {({ active }) => (
-                                            <Link 
-                                                to="/stacked-welt" 
+                                            <Link
+                                                to="/stacked-welt"
                                                 className={classNames(
                                                     active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
                                                     'block px-4 py-2 text-sm'
@@ -81,7 +82,7 @@ export default function Navbar() {
                                             </Link>
                                         )}
                                     </Menu.Item>
-                                    
+
                                 </div>
                             </Menu.Items>
                         </Transition>
