@@ -9,6 +9,9 @@ module.exports = {
         'beige': '#F3EAD4',
         'brown': '3F332B',
       },
+      gridTemplateColumns:{
+        'auto-fit': 'repeat(auto-fit, minmax(300px, 1fr))',
+      },
     },
   },
   plugins: [],
