@@ -21,7 +21,7 @@ export default function Navbar() {
 
     return (
         <>
-            <nav className="flex bg-beige px-10 h-20 items-center w-full">
+            <nav className="flex bg-neutral-400 px-10 h-20 items-center w-full">
                 <Link to="/" className="text-4xl font-bold mr-auto">JENG JYI</Link>
                 <ul className="flex text-lg items-center">
                     <Link to="/" className="mr-4">Home</Link>
