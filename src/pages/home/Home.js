@@ -1,12 +1,12 @@
 import React from "react"
-import Hero from "./Hero"
 import Gallery from "./Gallery"
+import Banner from "./Banner"
 
 export default function Home() {
     return (
         <>
             <div>
-                <Hero />
+                <Banner />
                 <Gallery />
             </div>
             

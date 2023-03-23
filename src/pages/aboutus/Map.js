@@ -20,8 +20,8 @@ export default function Map() {
             </div>
             
             <div className={(`content ${getActiveClass(1, "active-content")}`)}>
-                <div className="basis-full mt-3">
-                    <h1 className="font-semibold text-4xl ">Zheng Jyi Company limited</h1>
+                <div className="basis-full mt-3 pb-3">
+                    <h1 className="font-semibold text-4xl ">Ever Luck Company limited</h1>
                     <br/>
                     <p className="text-3xl">Zheng Jyi was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers in
                         welt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded our
@@ -48,7 +48,7 @@ export default function Map() {
             </div>
 
             <div className={`content ${getActiveClass(2, "active-content")}`}>
-                <div className="basis-full mt-3">
+                <div className="basis-full mt-3 pb-3">
                     <h1 className="font-semibold text-4xl">Yong Kai Enterprises </h1>
                     <br />
                     <p className="text-3xl">As the company expanded, Zheng Jyi moved the factory to China in 1988. Zheng Jyi became more specialized in welt, both extrusion and leather welt.
@@ -76,7 +76,7 @@ export default function Map() {
             </div>
 
             <div className={`content ${getActiveClass(3, "active-content")}`}>
-                <div className="basis-full mt-3">
+                <div className="basis-full mt-3 pb-3">
                     <h1 className="font-semibold text-4xl">Cong Ty Chanh Kiet</h1>
                     <br />
                     <p className="text-3xl">With the first wave of foreign investment into Vietnam, we initiated and branched out another factory in Vietnam in 1999.
