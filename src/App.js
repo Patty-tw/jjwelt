@@ -4,6 +4,7 @@ import Navbar from "./pages/Navbar";
 import Desiccant from "./pages/desiccant/Desiccant";
 import Aboutus from "./pages/aboutus/Aboutus"
 import LeatherWelt from "./pages/leatherwelt/LeatherWelt"
+import PlasticWelt from "./pages/plasticwelt/PlasticWelt";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -17,6 +18,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/leather-welt" element={<LeatherWelt />} />
+        <Route path="/plastic-welt" element={<PlasticWelt />} />
         <Route path="/desiccant" element={<Desiccant />} />
       </Routes>
     </>
