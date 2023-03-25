@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content() {
     return (
-        <>
+        <div className="grid grid-rows-4 gap-5">
             <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=1" alt="dessicant" className="mx-auto" />
                 <div className="my-auto">
@@ -34,7 +34,7 @@ export default function Content() {
                         Our company is able to produce  2-color, 3-color, and/or PVC+leather welt as specified by customers.</p>
                 </div>
             </div>
-        </>
+        </div>
 
     )
 }

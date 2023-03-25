@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content() {
     return (
-        <>
+        <div className="grid grid-rows-2 gap-5">
             <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=1" alt="dessicant" className="mx-auto" />
                 <div className="my-auto">
@@ -17,6 +17,6 @@ export default function Content() {
                     <p className="">Leatherboard welt is a  economic alternative to leather welt. The texture and feel closely mimics that of leather counterpart.</p>
                 </div>
             </div>
-        </>
+        </div>
     )
 }
