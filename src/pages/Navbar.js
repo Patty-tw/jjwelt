@@ -144,7 +144,7 @@ export default function Navbar() {
                                             Name
                                         </label>
                                         <input
-                                            className="border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500"
+                                            className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:outline-none focus:border-teal-500 focus:ring-teal-500"
                                             type="text"
                                             placeholder="Name"
                                             name="Name"
@@ -153,7 +153,7 @@ export default function Navbar() {
                                             Email
                                         </label>
                                         <input
-                                            className="border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500"
+                                            className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:outline-none focus:border-teal-500 focus:ring-teal-500"
                                             type="email"
                                             placeholder="Email"
                                             name="Name"
@@ -163,7 +163,7 @@ export default function Navbar() {
                                         </label>
                                         <select
                                             name="enquiry"
-                                            className="border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500">
+                                            className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500">
                                             <option>-- Choose --</option>
                                             <option>General Enquiry</option>
                                             <option>Sample request</option>
@@ -172,9 +172,8 @@ export default function Navbar() {
                                             Message
                                         </label>
                                         <input
-                                            className="border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500"
+                                            className="border-2 border-gray-500 p-2 rounded-md w-full focus:outline-none focus:border-teal-500 focus:ring-teal-500"
                                             type="textarea"
-                                            placeholder="How can we help?"
                                             name="comment"
                                         />
                                     </div>
