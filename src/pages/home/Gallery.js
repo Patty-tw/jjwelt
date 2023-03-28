@@ -24,8 +24,8 @@ export default function Gallery() {
                 <div className="max-w-sm rounded overflow-hidden shadow-lg">
                     <img
                         className="w-full"
-                        src="https://picsum.photos/500?random=3" alt="stacked welt" />
-                    <Link to="/stacked-welt" className="flex font-bold text-xl items-center justify-center">Stacked Welt</Link>
+                        src="https://picsum.photos/500?random=3" alt="stacked leather" />
+                    <Link to="/stacked-leather" className="flex font-bold text-xl items-center justify-center">Stacked Leather</Link>
                 </div>
                 <div className="max-w-sm rounded overflow-hidden shadow-lg">
                     <img
