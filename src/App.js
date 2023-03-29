@@ -6,6 +6,7 @@ import Aboutus from "./pages/aboutus/Aboutus"
 import LeatherWelt from "./pages/leatherwelt/LeatherWelt"
 import PlasticWelt from "./pages/plasticwelt/PlasticWelt";
 import StackedLeather from "./pages/stackedleather/StackedLeather";
+import LeatherBoard from "./pages/leatherboard/LeatherBoard";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -19,6 +20,7 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/leather-welt" element={<LeatherWelt />} />
+        <Route path="/leatherboard-welt" element={<LeatherBoard />} />
         <Route path="/plastic-welt" element={<PlasticWelt />} />
         <Route path="/stacked-leather" element={<StackedLeather />} />
         <Route path="/desiccant" element={<Desiccant />} />

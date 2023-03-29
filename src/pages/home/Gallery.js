@@ -18,7 +18,7 @@ export default function Gallery() {
                     <img
                         className="w-full"
                         src="https://picsum.photos/500?random=6" alt="leatherboard welt" />
-                    <Link to="/plastic-welt" className="flex font-bold text-xl items-center justify-center h-20">Leatherboard Welt</Link>
+                    <Link to="/leatherboard-welt" className="flex font-bold text-xl items-center justify-center h-20">Leatherboard Welt</Link>
 
                 </div>
                 <div className="max-w-sm rounded overflow-hidden shadow-lg">
