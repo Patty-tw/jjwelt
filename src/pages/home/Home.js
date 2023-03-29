@@ -4,12 +4,11 @@ import Banner from "./Banner"
 
 export default function Home() {
     return (
-        <>
-            <div>
-                <Banner />
-                <Gallery />
-            </div>
-            
-        </>
+        <div>
+            <Banner />
+            <Gallery />
+        </div>
+
+
     )
 }
