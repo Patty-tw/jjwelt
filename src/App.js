@@ -9,14 +9,13 @@ import StackedLeather from "./pages/stackedleather/StackedLeather";
 import LeatherBoard from "./pages/leatherboard/LeatherBoard";
 import Outsole from "./pages/outsole/Outsole";
 import { Routes, Route } from "react-router-dom";
+import Footer from "./pages/Footer";
 
 export default function App() {
   return (
-    <>
-      <main>
-        <Navbar />
-      </main>
-      
+
+    <main>
+      <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />
@@ -26,9 +25,10 @@ export default function App() {
         <Route path="/stacked-leather" element={<StackedLeather />} />
         <Route path="/desiccant" element={<Desiccant />} />
         <Route path="/outsole" element={<Outsole />} />
-
       </Routes>
-    </>
+      <Footer />
+    </main>
+
   );
 }
 
