@@ -12,6 +12,9 @@ module.exports = {
       gridTemplateColumns:{
         'auto-fit': 'repeat(auto-fit, minmax(300px, 1fr))',
       },
+      height:{
+        '450':'450px'
+      },
     },
   },
   plugins: [],

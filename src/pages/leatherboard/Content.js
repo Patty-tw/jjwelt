@@ -4,6 +4,13 @@ export default function Content() {
     return (
         <div className="grid grid-rows-4 gap-5">
             <div className="grid grid-cols-2">
+                <img src="https://picsum.photos/500?random=5" alt="dessicant" className="mx-auto" />
+                <div className="my-auto ">
+                    <h1 className="text-3xl">Introduction of leatherboard</h1>
+                    <p className="w-3/4">Extrusion</p>
+                </div>
+            </div>
+            <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=1" alt="dessicant" className="mx-auto" />
                 <div className="my-auto ">
                     <h1 className="text-3xl">Premium bonded leather material sourced from Italy and Germany</h1>

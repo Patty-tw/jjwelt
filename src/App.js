@@ -7,6 +7,7 @@ import LeatherWelt from "./pages/leatherwelt/LeatherWelt"
 import PlasticWelt from "./pages/plasticwelt/PlasticWelt";
 import StackedLeather from "./pages/stackedleather/StackedLeather";
 import LeatherBoard from "./pages/leatherboard/LeatherBoard";
+import Outsole from "./pages/outsole/Outsole";
 import { Routes, Route } from "react-router-dom";
 
 export default function App() {
@@ -24,6 +25,7 @@ export default function App() {
         <Route path="/plastic-welt" element={<PlasticWelt />} />
         <Route path="/stacked-leather" element={<StackedLeather />} />
         <Route path="/desiccant" element={<Desiccant />} />
+        <Route path="/outsole" element={<Outsole />} />
 
       </Routes>
     </>
