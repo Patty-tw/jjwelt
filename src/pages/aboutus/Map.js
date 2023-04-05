@@ -13,7 +13,7 @@ export default function Map() {
 
     return (
         <div className="flex-auto overflow-hidden w-4/5 relative mr-auto ml-auto md:px-20 lg:px-40">
-            <div className="flex border-b-2 mt-24">
+            <div className="flex border-b-2 mt-5">
                 <button className={"font-bold mr-20 pl-3.5 pb-4" + (`tabs ${getActiveClass(1, "active-tabs")}`)} onClick={() => toggleTab(1)}> Taiwan </button>
                 <button className={"font-bold mr-20 pl-3.5 pb-4" + (`tabs ${getActiveClass(2, "active-tabs")}`)} onClick={() => toggleTab(2)}> China </button>
                 <button className={"font-bold mr-20 pl-3.5 pb-4" + (`tabs ${getActiveClass(3, "active-tabs")}`)} onClick={() => toggleTab(3)}> Vietnam </button>
