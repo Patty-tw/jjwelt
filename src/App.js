@@ -3,7 +3,7 @@ import Home from "./pages/home/Home"
 import Navbar from "./pages/Navbar";
 import Desiccant from "./pages/desiccant/Desiccant";
 import Aboutus from "./pages/aboutus/Aboutus"
-import LeatherWelt from "./pages/leatherwelt/LeatherWelt"
+import Leather from "./pages/leather/Leather"
 import PlasticWelt from "./pages/plasticwelt/PlasticWelt";
 import StackedLeather from "./pages/stackedleather/StackedLeather";
 import LeatherBoard from "./pages/leatherboard/LeatherBoard";
@@ -20,7 +20,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />
-        <Route path="/leather-welt" element={<LeatherWelt />} />
+        <Route path="/leather" element={<Leather />} />
         <Route path="/leatherboard-welt" element={<LeatherBoard />} />
         <Route path="/plastic-welt" element={<PlasticWelt />} />
         <Route path="/stacked-leather" element={<StackedLeather />} />
