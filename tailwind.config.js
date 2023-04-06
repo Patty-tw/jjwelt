@@ -15,6 +15,9 @@ module.exports = {
       height:{
         '450':'450px'
       },
+      aspectRatio:{
+        '2/1': '2/1'
+      },
     },
   },
   plugins: [],

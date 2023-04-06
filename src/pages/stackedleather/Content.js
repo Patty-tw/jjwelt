@@ -2,10 +2,10 @@ import React from "react";
 
 export default function Content() {
     return (
-        <div className="grid grid-rows-4 gap-5">
+        <div className="grid grid-rows-4 gap-5 sm:px-10">
             <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=1" alt="raw material of stacked leather" className="mx-auto" />
-                <div className="my-auto">
+                <div className="my-auto sm:ml-10">
                     <h1 className="text-3xl">Raw Material</h1>
                     <p className="w-3/4">We start with highest quality vegetable tanned leather sourced directly and only from major tanneries in Italy.
                         All our raw materials have been tested. Test reports can be provided upon request.</p>
@@ -13,7 +13,7 @@ export default function Content() {
             </div>
             <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=2" alt="colors of stacked leather" className="mx-auto" />
-                <div className="my-auto sm:ml-5">
+                <div className="my-auto sm:ml-10">
                     <h1 className="text-3xl">
                         Colors</h1>
                     <p className="w-3/4">We stock multiple colors of raw material which includes Black, Brown, Natural and White.
@@ -24,7 +24,7 @@ export default function Content() {
             </div>
             <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=3" alt="customisation of stacked leather" className="mx-auto" />
-                <div className="my-auto sm:ml-5">
+                <div className="my-auto sm:ml-10">
                     <h1 className="text-3xl">Customization</h1>
                     <p className="w-3/4">Our experienced technicians carefully craft the leather pieces base on the heel samples provided.
                         We have over 25 years of experience and whether customer are seeking simple heels like kitten and pumps heels or more complicated wedge
@@ -33,7 +33,7 @@ export default function Content() {
             </div>
             <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=4" alt="quality outcome of stacked" className="mx-auto" />
-                <div className="my-auto sm:ml-5">
+                <div className="my-auto sm:ml-10">
                     <h1 className="text-3xl">
                         Quality Outcome</h1>
                     <p className="w-3/4">With our in-house coloring and finishing, our company are able to provide even the most complicated designs customers.
