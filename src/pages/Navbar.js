@@ -103,7 +103,8 @@ export default function Navbar() {
 
                     <button
                         className="mr-4 bg-teal-700 text-white px-4 py-2 rounded-md ml-5"
-                        onClick={openModal}>Contact us</button>
+                        onClick={openModal}>Contact us
+                    </button>
                 </ul>
             </nav>
 
