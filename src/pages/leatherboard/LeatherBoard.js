@@ -3,7 +3,7 @@ import Banner from "./Banner";
 import Content from "./Content";
 
 
-export default function LeatherBoard(){
+export default function LeatherWelt(){
     return (
         <div>
             <Banner/>    

@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content() {
     return (
-        <div className="grid grid-rows-4 gap-5 sm:px-5">
+        <div className="grid grid-rows-5 gap-5 sm:px-5">
             <div className="grid grid-cols-2">
                 <img src="https://picsum.photos/500?random=5" alt="dessicant" className="mx-auto" />
                 <div className="my-auto sm:ml-5">
