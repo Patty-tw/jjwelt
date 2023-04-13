@@ -10,7 +10,6 @@ export default function Testimonial(){
                 <ul className="md:text-lg lg:text-2xl py-5">Coach</ul>
                 <ul className="md:text-lg lg:text-2xl py-5">Zara</ul>
                 <ul className="md:text-lg lg:text-2xl py-5">Lacoste</ul>
-
             </div>
         </div>
     )

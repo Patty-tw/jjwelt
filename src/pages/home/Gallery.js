@@ -6,7 +6,7 @@ export default function Gallery() {
     return (
         <div>
             <h1 className="text-center md:text-2xl lg:text-4xl mt-10 mb-10">Products</h1>
-            <div className="grid grid-cols-auto-fit gap-10 p-10">
+            <div className="grid grid-cols-auto-fit gap-10 p-10 justify-items-center">
                 <div className="max-w-sm rounded overflow-hidden shadow-lg object-cover object-center" >
                     <Link to="/leather-welt" >
                         <img
