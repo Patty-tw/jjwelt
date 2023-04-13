@@ -12,7 +12,7 @@ import LeatherBoard from "./pages/leatherboard/LeatherBoard";
 import LeatherWelt from "./pages/leatherwelt/LeatherWelt";
 import Outsole from "./pages/outsole/Outsole";
 import Footer from "./pages/Footer";
-
+import StockFitting from "./pages/stockfitting/StockFitting";
 
 
 export default function App() {
@@ -36,6 +36,7 @@ export default function App() {
         <Route path="/stacked-leather" element={<StackedLeather />} />
         <Route path="/desiccant" element={<Desiccant />} />
         <Route path="/outsole" element={<Outsole />} />
+        <Route path="/outsole-stock-fitting" element={<StockFitting />} />
       </Routes>
       <Footer />
     </main>
