@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/jjwelt/static/css/main.695f66f3.css",
-    "main.js": "/jjwelt/static/js/main.c241b07e.js",
+    "main.js": "/jjwelt/static/js/main.c9e0c2b8.js",
     "index.html": "/jjwelt/index.html",
     "main.695f66f3.css.map": "/jjwelt/static/css/main.695f66f3.css.map",
-    "main.c241b07e.js.map": "/jjwelt/static/js/main.c241b07e.js.map"
+    "main.c9e0c2b8.js.map": "/jjwelt/static/js/main.c9e0c2b8.js.map"
   },
   "entrypoints": [
     "static/css/main.695f66f3.css",
-    "static/js/main.c241b07e.js"
+    "static/js/main.c9e0c2b8.js"
   ]
 }
