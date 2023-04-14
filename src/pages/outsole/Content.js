@@ -9,7 +9,7 @@ export default function Content() {
                 <div className="my-auto sm:ml-5">
                     <h1 className="text-3xl">Stock Fitting</h1>
                     <p className="w-3/4">Leather, rubber and PU outsole assembly with in-house coloring.  </p>
-                    <Link to="/stock-fitting" className="flex mt-3 w-20 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Details</Link>
+                    <Link to="/outsole-stock-fitting" className="flex mt-3 w-20 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">Details</Link>
                 </div>
             </div>
             <div className="grid grid-cols-2">
