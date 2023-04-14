@@ -27,7 +27,7 @@ export default function App() {
     <main>
       <Navbar />
       <Routes>
-        <Route path="/jjwelt" element={<Home />} />
+        <Route path="/jjwelt/" element={<Home />} />
         <Route path="/aboutus" element={<Aboutus />} />
         <Route path="/leather" element={<Leather />} />
         <Route path="/leather-welt" element={<LeatherWelt />} />
