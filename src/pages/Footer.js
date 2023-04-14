@@ -20,7 +20,7 @@ export default function Footer() {
                 <div className="w-4/5  mx-auto md:py-8">
                     <div className="sm:flex sm:items-center sm:justify-between">
                         <Link to="/" className="flex items-center mb-4 sm:mb-0">
-                            <img src="./images/jjwelt-logo.png" className="h-10 mr-3" alt="logo" />
+                            <img src="./jjwelt/images/jjwelt-logo.png" className="h-10 mr-3" alt="logo" />
                             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Jeng Jyi</span>
                         </Link>
 
