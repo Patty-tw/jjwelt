@@ -2,15 +2,13 @@ import React from "react";
 
 export default function Contactus({ open, onClose }) {
     if (!open) return null
-
     return (
-
         <div className="relative z-10" onClick={onClose}>
-            <div onClick={(e) => e.stopPropagation()}
-                className="fixed inset-0 overflow-y-auto">
-                <div className="flex min-h-full items-center justify-center p-4 text-center">
-                    <div className="w-full max-w-md transform overflow-hidden rounded-lg bg-white p-6 text-left align-middle shadow-xl transition-all">
-
+            <div className="fixed inset-0 overflow-y-auto bg-black/70">
+                <div className="flex min-h-full items-center justify-center p-4 text-center" >
+                    <div className="w-full max-w-md transform overflow-hidden rounded-lg bg-white p-6 text-left align-middle shadow-xl transition-all" onClick={(e) => {
+                        e.stopPropagation();
+                    }}>
                         <div>
                             <h3 className="text-lg font-medium leading-6 text-gray-900">
                                 Contact Us
