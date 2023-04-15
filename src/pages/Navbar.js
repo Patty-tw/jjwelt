@@ -98,7 +98,7 @@ export default function Navbar() {
                         className="mr-4 bg-teal-700 text-white px-4 py-2 rounded-md ml-5"
                         onClick={() => setIsOpen(true)} >Contact us
                     </button>
-                    <Contactus />
+                    <Contactus open={isOpen} onClose={() => setIsOpen(false)} />
                 </ul>
             </nav>
         </>
