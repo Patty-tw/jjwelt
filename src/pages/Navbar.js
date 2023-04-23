@@ -1,16 +1,20 @@
 import React from "react";
-import { Transition, Menu } from '@headlessui/react'
-import { Fragment, useState } from 'react'
-import { ChevronDownIcon } from '@heroicons/react/20/solid'
+import { useState } from 'react'
 import { Link } from "react-router-dom";
 import Contactus from "./Contactus";
+import { menuData } from "./navbar/menuData";
+import { Menu, MenuItem, MenuButton, SubMenu } from '@szhsin/react-menu';
+import '@szhsin/react-menu/dist/index.css';
+import '@szhsin/react-menu/dist/transitions/slide.css';
 
 export default function Navbar() {
+
     const [isOpen, setIsOpen] = useState(false)
 
-    function classNames(...classes) {
-        return classes.filter(Boolean).join(' ')
-    }
+    // const menuItems = menuData.map(menu => {
+    //     return <Menu key={menu.id} title={menu.title} url={menu.url} />
+    // })
+
 
     return (
         <>
@@ -19,81 +23,32 @@ export default function Navbar() {
                 <ul className="flex text-lg items-center">
                     <Link to="/" className="mr-4">Home</Link>
                     <Link to="/aboutus" className="mr-4">About us</Link>
+                    <Menu menuButton={<MenuButton>Product</MenuButton>}>
+                        <SubMenu label= {<Link to="/leather" className="mr-4">Welting</Link>} >
+                            <MenuItem>
+                                <Link to="/leather-welt" className="mr-4">Leather Welt</Link>
+                            </MenuItem>
+                            <MenuItem>
+                                <Link to="/leatherboard-welt" className="mr-4">Leatherborad Welt</Link>
+                            </MenuItem>
+                        </SubMenu>
+                        <MenuItem>
+                            <Link to="/plastic-welt" className="mr-4">Plastic Welt</Link>
+                        </MenuItem>
+                        <SubMenu label={<Link to="/outsole" className="mr-4">Outsole</Link>} >
+                            <MenuItem>
+                                <Link to="/outsole-stock-fitting" className="mr-4">Stock Fitting</Link>
+                            </MenuItem>
+                            <MenuItem>
+                                <Link to="/stacked-leather" className="mr-4">Stacked Leather</Link>
+                            </MenuItem>
+                            <MenuItem>
+                                <Link to="/desiccant" className="mr-4">Dessicants</Link>
+                            </MenuItem>
 
-                    <Menu as="div" className="relative inline-block text-left">
-                        <Menu.Button className="inline-flex w-full justify-center gap-x-1.5">Product
-                            <ChevronDownIcon className="mt-1 -mr-1 h-5 w-5" aria-hidden="true" />
-                        </Menu.Button>
+                        </SubMenu>
 
-                        <Transition
-                            as={Fragment}
-                            enter="transition ease-out duration-100"
-                            enterFrom="transform opacity-0 scale-95"
-                            enterTo="transform opacity-100 scale-100"
-                            leave="transition ease-in duration-75"
-                            leaveFrom="transform opacity-100 scale-100"
-                            leaveTo="transform opacity-0 scale-95"
-                        >
-                            <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                                <div className="py-1">
-                                    <Menu.Item>
-                                        {({ active }) => (
-                                            <Link
-                                                to="/leather"
-                                                className={classNames(
-                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                    'block px-4 py-2 text-sm'
-                                                )}
-                                            >
-                                                Leather
-                                            </Link>
-                                        )}
-                                    </Menu.Item>
-                                    <Menu.Item>
-                                        {({ active }) => (
-                                            <Link
-                                                to="/plastic-welt"
-                                                className={classNames(
-                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                    'block px-4 py-2 text-sm'
-                                                )}
-                                            >
-                                                Plastic Welt
-                                            </Link>
-                                        )}
-                                    </Menu.Item>
-                                    <Menu.Item>
-                                        {({ active }) => (
-                                            <Link
-                                                to="/stacked-leather"
-                                                className={classNames(
-                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                    'block px-4 py-2 text-sm'
-                                                )}
-                                            >
-                                                Stacked Leather
-                                            </Link>
-                                        )}
-                                    </Menu.Item>
-                                    <Menu.Item>
-                                        {({ active }) => (
-                                            <Link
-                                                to="/outsole"
-                                                className={classNames(
-                                                    active ? 'bg-gray-100 text-gray-900' : 'text-gray-700',
-                                                    'block px-4 py-2 text-sm'
-                                                )}
-                                            >
-                                                Outsole
-                                            </Link>
-                                        )}
-                                    </Menu.Item>
-
-                                </div>
-                            </Menu.Items>
-                        </Transition>
                     </Menu>
-
                     <button
                         className="mr-4 bg-teal-700 text-white px-4 py-2 rounded-md ml-5"
                         onClick={() => setIsOpen(true)} >Contact us
