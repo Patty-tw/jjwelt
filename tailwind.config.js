@@ -18,6 +18,9 @@ module.exports = {
       aspectRatio:{
         '2/1': '2/1'
       },
+      backgroundImage: {
+        'shoemaking': "url('./pages/img/shoemaking-unsplash.jpg')"
+      },
     },
   },
   plugins: [],
