@@ -19,6 +19,7 @@ module.exports = {
       },
       backgroundImage: {
         shoemaking: "url('./pages/img/shoemaking-unsplash.jpg')",
+        "home-banner": "url('./pages/img/jia-ye-erHlzWCN6zQ-unsplash.jpg')",
       },
     },
   },
