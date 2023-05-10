@@ -52,7 +52,7 @@ export default function Map(props) {
                   </p>
                 </div>
                 <div className="mt-10 md:max-w-md lg:max-w-2xl mx-auto">
-                  <LoadScript googleMapsApiKey="AIzaSyBCrRxPePAz8NmRuXvSJzCOjlAtxpuOflo">
+                  <LoadScript googleMapsApiKey="AIzaSyCLGj4VT9rC13drQbwOgwYEFvrbWJOtYd4">
                     <GoogleMap
                       mapContainerStyle={containerStyle}
                       center={posts.center}
