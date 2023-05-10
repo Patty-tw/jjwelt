@@ -20,6 +20,7 @@ module.exports = {
       backgroundImage: {
         shoemaking: "url('./pages/img/shoemaking-unsplash.jpg')",
         "home-banner": "url('./pages/img/jia-ye-erHlzWCN6zQ-unsplash.jpg')",
+        desiccant: "url('./pages/img/desiccant-banner.jpg')",
       },
     },
   },

@@ -1,15 +1,20 @@
 import React from "react";
 import { Tab } from "@headlessui/react";
 import { mapData } from "../data/mapData";
+import { GoogleMap, MarkerF, LoadScript } from "@react-google-maps/api";
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
 export default function Map(props) {
+  const containerStyle = {
+    width: "100%",
+    height: "400px",
+  };
   return (
     <div className="px-20">
-      <div className="w-3/5 px-10 py-14 mx-auto">
+      <div className="w-4/5 px-10 py-14 mx-auto">
         <Tab.Group>
           <Tab.List className="flex">
             {mapData.map(({ id, country }) => (
@@ -40,23 +45,33 @@ export default function Map(props) {
                 )}
               >
                 <div>
-                  <h1 className="text-2xl">{posts.name}</h1>
+                  <h1 className="text-2xl text-center">{posts.name}</h1>
                   <br />
-                  <p className="text-xl md:max-w-md lg:max-w-2xl">
+                  <p className="text-xl md:max-w-md lg:max-w-2xl mx-auto">
                     {posts.present}
                   </p>
                 </div>
-                <div className="basis-1/2">
+                <div className="mt-10 md:max-w-md lg:max-w-2xl mx-auto">
+                  <LoadScript googleMapsApiKey="AIzaSyBCrRxPePAz8NmRuXvSJzCOjlAtxpuOflo">
+                    <GoogleMap
+                      mapContainerStyle={containerStyle}
+                      center={posts.center}
+                      zoom={posts.zoom}
+                    >
+                      <MarkerF position={posts.center} />
+                    </GoogleMap>
+                  </LoadScript>
+                </div>
+                <div className="basis-1/2 text-xl text-center">
                   <br />
-                  <p>Opening hours: {posts.open}</p>
+                  <p>Opening hours: {posts.opening}</p>
                   <p>
-                    {posts.road} <br />
+                    Address: {posts.road} <br />
                   </p>
                   {posts.suburb && <p> {posts.suburb}</p>}
                   {posts.district && <p> {posts.district}</p>}
-                  {posts.city && <p> {posts.city},</p>}
+                  {posts.city && <p> {posts.city}</p>}
                   {posts.country && <p> {posts.country}</p>}
-
                   <p>{posts.phone}</p>
                 </div>
               </Tab.Panel>

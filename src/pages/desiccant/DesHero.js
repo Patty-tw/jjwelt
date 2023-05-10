@@ -1,10 +1,9 @@
 import React from "react";
 
-export default function DesHero(){
-    return (
-        <div className="relative mb-10">
-            <img src= "./images/plastic-banner.jpg" alt = "plastic-banner" className="w-full"/>
-            <h1 className="absolute text-4xl font-semibold text-center text-white top-1/2 ">Desiccant</h1>
-        </div>
-    )
+export default function DesHero() {
+  return (
+    <div className="relative mb-10 bg-desiccant h-[450px] bg-center bg-cover">
+      <h1>Desiccant</h1>
+    </div>
+  );
 }

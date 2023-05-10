@@ -10,6 +10,8 @@ export const mapData = [
     suburb: "Caotun Township",
     city: "Nantou County",
     phone: "+886 970417511",
+    center: { lat: 23.96747, lng: 120.67532 },
+    zoom: 11,
   },
   {
     id: 2,
@@ -24,10 +26,12 @@ export const mapData = [
     city: "Foshan City",
     state: "Guandong",
     phone: "+86 139-277-55394",
+    center: { lat: 23.167565633118084, lng: 113.0281515957602 },
+    zoom: 11,
   },
   {
     id: 3,
-    country: "Vietname",
+    country: "Vietnam",
     name: "Cong Ty Chanh Kiet",
     present:
       "With the first wave of foreign investment into Vietnam, we initiated and branched out another factory in Vietnam in 1999. As we expanded, we started manufacturing leather heel covers and outsole stockfitting. Our Binh Duong, Vietnam factory is close to major airport and shipping port.",
@@ -35,5 +39,7 @@ export const mapData = [
     road: "DT 743, Song Than Industrial Area",
     district: "Binh Duong",
     phone: "+84 916-810445",
+    center: { lat: 10.89432168270396, lng: 106.740665810885 },
+    zoom: 11,
   },
 ];
