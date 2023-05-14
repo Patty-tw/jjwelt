@@ -47,7 +47,7 @@ export default function Map(props) {
                 <div>
                   <h1 className="text-2xl text-center">{posts.name}</h1>
                   <br />
-                  <p className="text-xl md:max-w-md lg:max-w-2xl mx-auto">
+                  <p className="text-xl text-center md:max-w-md lg:max-w-2xl mx-auto leading-normal">
                     {posts.present}
                   </p>
                 </div>
