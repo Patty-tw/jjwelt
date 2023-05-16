@@ -1,16 +1,14 @@
-import React from "react"
-import Gallery from "./Gallery"
-import Banner from "./Banner"
-import Testimonial from "./Testimonial"
+import React from "react";
+import Gallery from "./Gallery";
+import Banner from "./Banner";
+import Testimonial from "./Testimonial";
 
 export default function Home() {
-    return (
-        <div>
-            <Banner />
-            <Gallery />
-            <Testimonial />
-        </div>
-
-
-    )
+  return (
+    <div>
+      {/* <Banner /> */}
+      <Gallery />
+      <Testimonial />
+    </div>
+  );
 }

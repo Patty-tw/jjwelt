@@ -14,7 +14,7 @@ export default function Map(props) {
   };
   return (
     <div className="px-20">
-      <div className="w-4/5 px-10 py-14 mx-auto">
+      <div className="w-3/5 px-10 py-14 mx-auto">
         <Tab.Group>
           <Tab.List className="flex">
             {mapData.map(({ id, country }) => (
@@ -47,7 +47,7 @@ export default function Map(props) {
                 <div>
                   <h1 className="text-2xl text-center">{posts.name}</h1>
                   <br />
-                  <p className="text-xl text-center md:max-w-md lg:max-w-2xl mx-auto leading-normal">
+                  <p className="text-xl text-justify md:max-w-md lg:max-w-2xl mx-auto leading-normal">
                     {posts.present}
                   </p>
                 </div>
