@@ -6,7 +6,7 @@ import Testimonial from "./Testimonial";
 export default function Home() {
   return (
     <div>
-      {/* <Banner /> */}
+      <Banner />
       <Gallery />
       <Testimonial />
     </div>

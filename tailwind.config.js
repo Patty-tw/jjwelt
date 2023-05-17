@@ -18,8 +18,9 @@ module.exports = {
         "2/1": "2/1",
       },
       backgroundImage: {
-        shoemaking: "url('./pages/img/shoemaking-unsplash.jpg')",
-        "home-banner": "url('./pages/img/max-liao-YiCO_CAlmeI-unsplash.jpg')",
+        shoemaking: "url('./pages/img/leather-shoe.jpg')",
+        "aboutus-banner":
+          "url('./pages/img/max-liao-YiCO_CAlmeI-unsplash.jpg')",
         desiccant: "url('./pages/img/desiccant-banner.jpg')",
       },
     },
