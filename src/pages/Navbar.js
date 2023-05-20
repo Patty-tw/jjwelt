@@ -6,11 +6,16 @@ import { Menu, Transition } from "@headlessui/react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
-
   const [isRotate, setIsRotate] = useState(false);
 
   function handleClick() {
     setIsRotate((prevState) => !prevState);
+  }
+
+  const [isRotateOne, setIsRotateOne] = useState(false);
+
+  function handleClickOne() {
+    setIsRotateOne((prevState) => !prevState);
   }
 
   return (
@@ -41,18 +46,17 @@ export default function Navbar() {
                 className="relative inline-block text-left items-center"
               >
                 <div>
-                  <Menu.Button
-                    className=" font-medium inline-flex w-full justify-center rounded-md py-2"
-                    onClick={handleClick}
-                  >
-                    Welting
-                    <div
-                      className={
-                        isRotate
-                          ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180"
-                          : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]"
-                      }
-                    ></div>
+                  <Menu.Button onClick={handleClick}>
+                    <div className="font-medium inline-flex w-full justify-center rounded-md py-2">
+                      Welting
+                      <div
+                        className={
+                          isRotate
+                            ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180 duration-300"
+                            : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]"
+                        }
+                      ></div>
+                    </div>
                   </Menu.Button>
                 </div>
                 <Transition
@@ -112,18 +116,17 @@ export default function Navbar() {
                 className="relative inline-block text-left  font-medium "
               >
                 <div>
-                  <Menu.Button
-                    className="inline-flex w-full justify-center rounded-md py-2"
-                    onClick={handleClick}
-                  >
-                    Outsole
-                    <div
-                      className={
-                        isRotate
-                          ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180"
-                          : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]"
-                      }
-                    ></div>
+                  <Menu.Button onClick={handleClickOne}>
+                    <div className="font-medium inline-flex w-full justify-center rounded-md py-2">
+                      Outsole
+                      <div
+                        className={
+                          isRotateOne
+                            ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180 duration-300"
+                            : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]"
+                        }
+                      ></div>
+                    </div>
                   </Menu.Button>
                 </div>
                 <Transition
