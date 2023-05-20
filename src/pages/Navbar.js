@@ -39,158 +39,157 @@ export default function Navbar() {
             <Link to="/plastic-welt" className="flex py-2  font-medium">
               Plastic Welt
             </Link>
-
             <div>
-              <Menu
-                as="div"
-                className="relative inline-block text-left items-center"
-              >
-                <div>
-                  <Menu.Button onClick={handleClick}>
-                    <div className="font-medium inline-flex w-full justify-center rounded-md py-2">
-                      Welting
-                      <div
-                        className={
-                          isRotate
-                            ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180 duration-300"
-                            : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]"
-                        }
-                      ></div>
+              <Menu>
+                {({ open }) => (
+                  <>
+                    <div className="relative inline-block text-left  font-medium ">
+                      <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
+                        Welting
+                        <div
+                          className={
+                            open
+                              ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180 duration-300"
+                              : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px] duration-300"
+                          }
+                        ></div>
+                      </Menu.Button>
                     </div>
-                  </Menu.Button>
-                </div>
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-100"
-                  enterFrom="transform opacity-0 scale-95"
-                  enterTo="transform opacity-100 scale-100"
-                  leave="transition ease-in duration-75"
-                  leaveFrom="transform opacity-100 scale-100"
-                  leaveTo="transform opacity-0 scale-95"
-                >
-                  <Menu.Items className=" font-medium absolute z-10 right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                    <div className="px-1">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/leather"
-                            className={`${
-                              active ? "bg-gray-100" : "text-gray-900"
-                            } group flex w-full  rounded-md px-2 py-2 text-sm`}
-                          >
-                            Overview
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/leatherboard-welt"
-                            className={`${
-                              active ? "bg-gray-100" : "text-gray-900"
-                            } group flex w-full rounded-md px-2 py-2 text-sm`}
-                          >
-                            Leather Welt
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <button
-                            className={`${
-                              active ? "bg-gray-100" : "text-gray-900"
-                            } group flex w-full rounded-md px-2 py-2 text-sm`}
-                          >
-                            Leatherboard Welt
-                          </button>
-                        )}
-                      </Menu.Item>
-                    </div>
-                  </Menu.Items>
-                </Transition>
+
+                    <Transition
+                      show={open}
+                      enter="transition ease-out duration-100"
+                      enterFrom="transform opacity-0 scale-95"
+                      enterTo="transform opacity-100 scale-100"
+                      leave="transition ease-in duration-75"
+                      leaveFrom="transform opacity-100 scale-100"
+                      leaveTo="transform opacity-0 scale-95"
+                    >
+                      <Menu.Items className=" font-medium absolute z-10 right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <div className="px-1">
+                          <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to="/leather"
+                                className={`${
+                                  active ? "bg-gray-100" : "text-gray-900"
+                                } group flex w-full  rounded-md px-2 py-2 text-sm`}
+                              >
+                                Overview
+                              </Link>
+                            )}
+                          </Menu.Item>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to="/leatherboard-welt"
+                                className={`${
+                                  active ? "bg-gray-100" : "text-gray-900"
+                                } group flex w-full rounded-md px-2 py-2 text-sm`}
+                              >
+                                Leather Welt
+                              </Link>
+                            )}
+                          </Menu.Item>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <button
+                                className={`${
+                                  active ? "bg-gray-100" : "text-gray-900"
+                                } group flex w-full rounded-md px-2 py-2 text-sm`}
+                              >
+                                Leatherboard Welt
+                              </button>
+                            )}
+                          </Menu.Item>
+                        </div>
+                      </Menu.Items>
+                    </Transition>
+                  </>
+                )}
               </Menu>
             </div>
-            <div className="flex">
-              <Menu
-                as="div"
-                className="relative inline-block text-left  font-medium "
-              >
-                <div>
-                  <Menu.Button onClick={handleClickOne}>
-                    <div className="font-medium inline-flex w-full justify-center rounded-md py-2">
-                      Outsole
-                      <div
-                        className={
-                          isRotateOne
-                            ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180 duration-300"
-                            : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]"
-                        }
-                      ></div>
+            <div>
+              <Menu>
+                {({ open }) => (
+                  <>
+                    <div className="relative inline-block text-left  font-medium ">
+                      <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
+                        Outsole
+                        <div
+                          className={
+                            open
+                              ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180 duration-300"
+                              : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px] duration-300"
+                          }
+                        ></div>
+                      </Menu.Button>
                     </div>
-                  </Menu.Button>
-                </div>
-                <Transition
-                  as={Fragment}
-                  enter="transition ease-out duration-100"
-                  enterFrom="transform opacity-0 scale-95"
-                  enterTo="transform opacity-100 scale-100"
-                  leave="transition ease-in duration-75"
-                  leaveFrom="transform opacity-100 scale-100"
-                  leaveTo="transform opacity-0 scale-95"
-                >
-                  <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
-                    <div className="py-1 ">
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/outsole"
-                            className={`${
-                              active ? "bg-gray-100" : "text-gray-900"
-                            } group flex w-full rounded-md px-2 py-2 text-sm`}
-                          >
-                            Overview
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/outsole-stock-fitting"
-                            className={`${
-                              active ? "bg-gray-100" : "text-gray-900"
-                            } group flex w-full rounded-md px-2 py-2 text-sm`}
-                          >
-                            Stock Fitting
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/stacked-leather"
-                            className={`${
-                              active ? "bg-gray-100" : "text-gray-900"
-                            } group flex w-full rounded-md px-2 py-2 text-sm`}
-                          >
-                            Stacked Leather
-                          </Link>
-                        )}
-                      </Menu.Item>
-                      <Menu.Item>
-                        {({ active }) => (
-                          <Link
-                            to="/desiccant"
-                            className={`${
-                              active ? "bg-gray-100" : "text-gray-900"
-                            } group flex w-full rounded-md px-2 py-2 text-sm`}
-                          >
-                            Desiccants
-                          </Link>
-                        )}
-                      </Menu.Item>
-                    </div>
-                  </Menu.Items>
-                </Transition>
+
+                    <Transition
+                      show={open}
+                      enter="transition ease-out duration-100"
+                      enterFrom="transform opacity-0 scale-95"
+                      enterTo="transform opacity-100 scale-100"
+                      leave="transition ease-in duration-75"
+                      leaveFrom="transform opacity-100 scale-100"
+                      leaveTo="transform opacity-0 scale-95"
+                    >
+                      <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                        <div className="py-1 ">
+                          <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to="/outsole"
+                                className={`${
+                                  active ? "bg-gray-100" : "text-gray-900"
+                                } group flex w-full rounded-md px-2 py-2 text-sm`}
+                              >
+                                Overview
+                              </Link>
+                            )}
+                          </Menu.Item>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to="/outsole-stock-fitting"
+                                className={`${
+                                  active ? "bg-gray-100" : "text-gray-900"
+                                } group flex w-full rounded-md px-2 py-2 text-sm`}
+                              >
+                                Stock Fitting
+                              </Link>
+                            )}
+                          </Menu.Item>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to="/stacked-leather"
+                                className={`${
+                                  active ? "bg-gray-100" : "text-gray-900"
+                                } group flex w-full rounded-md px-2 py-2 text-sm`}
+                              >
+                                Stacked Leather
+                              </Link>
+                            )}
+                          </Menu.Item>
+                          <Menu.Item>
+                            {({ active }) => (
+                              <Link
+                                to="/desiccant"
+                                className={`${
+                                  active ? "bg-gray-100" : "text-gray-900"
+                                } group flex w-full rounded-md px-2 py-2 text-sm`}
+                              >
+                                Desiccants
+                              </Link>
+                            )}
+                          </Menu.Item>
+                        </div>
+                      </Menu.Items>
+                    </Transition>
+                  </>
+                )}
               </Menu>
             </div>
 
