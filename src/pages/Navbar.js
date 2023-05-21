@@ -6,21 +6,42 @@ import { Menu, Transition } from "@headlessui/react";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [navOpen, setNavOpen] = useState(false);
 
   return (
-    <nav className="relative flex justify-between md:items-center md:h-[3.375rem] lg:h-16 z-10">
-      <Link to="/" className="text-4xl font-bold flex px-4 py-4 md:py-0">
+    <nav className="relative flex flex-wrap justify-between items-center md:h-[3.375rem md:flex-row lg:h-16 z-10">
+      <Link to="/" className=" text-4xl font-bold flex px-4 py-4 md:py-0">
         JENG JYI
       </Link>
 
-      {/* <div className="lg:hidden w-full">
-          <div className="h-[86px] flex items-center justify-between border-2 border-blue-900">
-            <div className="gap-y-1 flex flex-col"></div>
-          </div>
-        </div> */}
+      <div className="block lg:hidden">
+        <button
+          onClick={() => setNavOpen(!navOpen)}
+          className="flex items-center px-3 py-2 rounded text-black-500 hover:text-black-400"
+        >
+          <svg
+            className={`fill-current h-3 w-3 ${navOpen ? "hidden" : "block"}`}
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+          </svg>
+          <svg
+            className={`fill-current h-3 w-3 ${navOpen ? "block" : "hidden"}`}
+            viewBox="0 0 20 20"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M10 8.586L2.929 1.515 1.515 2.929 8.586 10l-7.071 7.071 1.414 1.414L10 11.414l7.071 7.071 1.414-1.414L11.414 10l7.071-7.071-1.414-1.414L10 8.586z" />
+          </svg>
+        </button>
+      </div>
 
-      <div className="lg:block hidden">
-        <ul className="text-sm lg:flex lg:items-center  gap-x-14  md:text-base lg:text-lg  leading-relaxed">
+      <div
+        className={`w-full block lg:flex lg:items-center lg:w-auto ${
+          navOpen ? "block" : "hidden"
+        }`}
+      >
+        <ul className="text-sm px-4 py-2 md:text-base lg:text-lg lg:flex lg:items-center lg:gap-x-14 leading-relaxed">
           <Link to="/" className="flex py-2 font-medium">
             Home
           </Link>
@@ -53,7 +74,7 @@ export default function Navbar() {
                     leaveTo="transform opacity-0 scale-95"
                   >
                     {open && (
-                      <Menu.Items className="font-medium absolute right-0 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                         <div className="px-1">
                           <Menu.Item>
                             {({ active }) => (
@@ -123,7 +144,7 @@ export default function Navbar() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="absolute right-0 z-10 mt-2 w-56 origin-top-right divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <div className="py-1 ">
                         <Menu.Item>
                           {({ active }) => (
@@ -184,9 +205,13 @@ export default function Navbar() {
           <Link to="/aboutus" className="flex py-2  font-medium ">
             About us
           </Link>
+          <div className="lg:hidden inline-flex lg:mr-4  font-medium bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
+            <button onClick={() => setIsOpen(true)}>Contact us</button>
+            <Contactus open={isOpen} onClose={() => setIsOpen(false)} />
+          </div>
         </ul>
       </div>
-      <div className="lg:block hidden leading-relaxed">
+      <div className="hidden lg:block leading-relaxed px-4 py-2">
         <div className="flex lg:mr-4  font-medium bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
           <button onClick={() => setIsOpen(true)}>Contact us</button>
           <Contactus open={isOpen} onClose={() => setIsOpen(false)} />
