@@ -144,7 +144,7 @@ export default function Navbar() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
                       <div className="py-1 ">
                         <Menu.Item>
                           {({ active }) => (
