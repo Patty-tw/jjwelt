@@ -62,17 +62,19 @@ export default function Map(props) {
                     </GoogleMap>
                   </LoadScript>
                 </div>
-                <div className="basis-1/2 text-xl text-center">
+                <div className="basis-1/2 text-xl text-center leading-relaxed">
                   <br />
                   <p>Opening hours: {posts.opening}</p>
                   <p>
                     Address: {posts.road} <br />
                   </p>
-                  {posts.suburb && <p> {posts.suburb}</p>}
-                  {posts.district && <p> {posts.district}</p>}
-                  {posts.city && <p> {posts.city}</p>}
-                  {posts.country && <p> {posts.country}</p>}
-                  <p>{posts.phone}</p>
+                  <p>
+                    {posts.suburb && <p> {posts.suburb}</p>}
+                    {posts.district && <p> {posts.district}</p>}
+                    {posts.city && <p> {posts.city}</p>}
+                    {posts.country} <br />
+                    {posts.phone}
+                  </p>
                 </div>
               </Tab.Panel>
             ))}
