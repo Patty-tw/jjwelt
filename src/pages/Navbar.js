@@ -74,7 +74,7 @@ export default function Navbar() {
                     leaveTo="transform opacity-0 scale-95"
                   >
                     {open && (
-                      <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                      <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg ">
                         <div className="px-1">
                           <Menu.Item>
                             {({ active }) => (
@@ -129,7 +129,7 @@ export default function Navbar() {
                       <div
                         className={
                           open
-                            ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px]  rotate-180 duration-300"
+                            ? "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px] rotate-180 duration-300"
                             : "ml-1 my-auto rounded-sm border-current border-l-transparent border-r-transparent border-t-[5px] border-l-[5px] border-r-[5px] duration-300"
                         }
                       ></div>
@@ -144,7 +144,7 @@ export default function Navbar() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none">
+                    <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg">
                       <div className="py-1 ">
                         <Menu.Item>
                           {({ active }) => (
