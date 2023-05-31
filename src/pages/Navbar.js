@@ -41,18 +41,18 @@ export default function Navbar() {
           navOpen ? "block" : "hidden"
         }`}
       >
-        <ul className="text-sm px-4 py-2 md:text-base lg:text-lg lg:flex lg:items-center lg:gap-x-14 leading-relaxed">
-          <Link to="/" className="flex py-2 font-medium">
+        <ul className="px-4 py-2 text-base lg:text-lg lg:flex lg:items-center lg:gap-x-14 leading-relaxed">
+          <Link to="/" className="flex py-2 ">
             Home
           </Link>
-          <Link to="/plastic-welt" className="flex py-2  font-medium">
+          <Link to="/plastic-welt" className="flex py-2">
             Plastic Welt
           </Link>
           <div>
             <Menu>
               {({ open }) => (
                 <>
-                  <div className="relative inline-block text-left  font-medium ">
+                  <div className="relative inline-block text-left">
                     <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
                       Welting
                       <div
@@ -74,7 +74,7 @@ export default function Navbar() {
                     leaveTo="transform opacity-0 scale-95"
                   >
                     {open && (
-                      <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg ">
+                      <Menu.Items className="w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg">
                         <div className="px-1">
                           <Menu.Item>
                             {({ active }) => (
@@ -124,7 +124,7 @@ export default function Navbar() {
             <Menu>
               {({ open }) => (
                 <>
-                  <div className="relative inline-block text-left font-medium">
+                  <div className="relative inline-block text-left">
                     <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
                       Outsole
                       <div
@@ -145,7 +145,7 @@ export default function Navbar() {
                     leaveFrom="transform opacity-100 scale-100"
                     leaveTo="transform opacity-0 scale-95"
                   >
-                    <Menu.Items className="font-medium w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg">
+                    <Menu.Items className=" w-full lg:absolute lg:right-0 lg:mt-2 lg:w-56 divide-y divide-gray-100 rounded-md bg-white lg:shadow-lg">
                       <div className="py-1 ">
                         <Menu.Item>
                           {({ active }) => (
@@ -203,17 +203,17 @@ export default function Navbar() {
             </Menu>
           </div>
 
-          <Link to="/aboutus" className="flex py-2  font-medium ">
+          <Link to="/aboutus" className="flex py-2">
             About us
           </Link>
-          <div className="lg:hidden inline-flex lg:mr-4  font-medium bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
+          <div className="lg:hidden inline-flex lg:mr-4   bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
             <button onClick={() => setIsOpen(true)}>Contact us</button>
             <Contactus open={isOpen} onClose={() => setIsOpen(false)} />
           </div>
         </ul>
       </div>
       <div className="hidden lg:block leading-relaxed px-4 py-2">
-        <div className="flex lg:mr-4  font-medium bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
+        <div className="flex lg:mr-4   bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
           <button onClick={() => setIsOpen(true)}>Contact us</button>
           <Contactus open={isOpen} onClose={() => setIsOpen(false)} />
         </div>
