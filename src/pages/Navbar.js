@@ -79,7 +79,7 @@ export default function Navbar() {
                           <Menu.Item>
                             {({ active }) => (
                               <Link
-                                to="/leather"
+                                to="/welting"
                                 className={`${
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
@@ -91,7 +91,7 @@ export default function Navbar() {
                           <Menu.Item>
                             {({ active }) => (
                               <Link
-                                to="/leatherboard-welt"
+                                to="/leather-welt"
                                 className={`${
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
@@ -102,13 +102,14 @@ export default function Navbar() {
                           </Menu.Item>
                           <Menu.Item>
                             {({ active }) => (
-                              <button
+                              <Link
+                                to="/leatherboard-welt"
                                 className={`${
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
                               >
                                 Leatherboard Welt
-                              </button>
+                              </Link>
                             )}
                           </Menu.Item>
                         </div>

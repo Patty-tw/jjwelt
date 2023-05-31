@@ -4,7 +4,7 @@ export const mapData = [
     country: "Taiwan",
     name: "Ever Luck Company Limited",
     present:
-      "Zheng Jyi was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers inwelt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded ourproduction into outsole stockfitting and leather heel cover production.",
+      "Zheng Jyi was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers in welt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded ourproduction into outsole stockfitting and leather heel cover production.",
     opening: "9am - 5pm",
     road: "No. 3, Alley 2, Lane 569, Caoxi Rd",
     suburb: "Caotun Township",
@@ -13,24 +13,9 @@ export const mapData = [
     center: { lat: 23.96747, lng: 120.67532 },
     zoom: 11,
   },
+
   {
     id: 2,
-    country: "China",
-    name: "Yong Kai Enterprises",
-    present:
-      "As the company expanded, Zheng Jyi moved the factory to China in 1988. Zheng Jyi became more specialized in welt, both extrusion and leather welt. We purchased all our machinery from Italy and had our employees flown over many times, acquiring welting skills, that later become our core competency in the business.",
-    opening: "9am - 5pm",
-    road: "Pingnan Industrial Area",
-    suburb: "Pingzhou",
-    district: "Nanhai District",
-    city: "Foshan City",
-    state: "Guandong",
-    phone: "+86 139-277-55394",
-    center: { lat: 23.167565633118084, lng: 113.0281515957602 },
-    zoom: 11,
-  },
-  {
-    id: 3,
     country: "Vietnam",
     name: "Cong Ty Chanh Kiet",
     present:

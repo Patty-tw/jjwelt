@@ -13,8 +13,8 @@ export default function Map(props) {
     height: "400px",
   };
   return (
-    <div className="px-20">
-      <div className="w-3/5 px-10 py-14 mx-auto">
+    <div>
+      <div className="w-4/5 mx-auto">
         <Tab.Group>
           <Tab.List className="flex">
             {mapData.map(({ id, country }) => (
