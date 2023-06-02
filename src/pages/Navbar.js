@@ -41,8 +41,8 @@ export default function Navbar() {
           navOpen ? "block" : "hidden"
         }`}
       >
-        <ul className="px-4 py-2 text-base lg:text-lg lg:flex lg:items-center lg:gap-x-14 leading-relaxed">
-          <Link to="/" className="flex py-2 ">
+        <ul className="px-4 py-2 lg:text-lg lg:flex lg:items-center lg:gap-x-14 leading-relaxed">
+          <Link to="/" className="flex py-2">
             Home
           </Link>
           <Link to="/plastic-welt" className="flex py-2">

@@ -2,16 +2,23 @@ import React from "react";
 
 export default function Content() {
   return (
-    <div className="grid grid-rows-4 gap-5 leading-relaxed sm:px-10">
-      <div className="grid grid-cols-2">
+    <div className="grid md:grid-rows-4 md:gap-5 md:px-5 leading-relaxed">
+      <div
+        className="md:grid md:grid-cols-2 
+      "
+      >
         <img
           src="https://picsum.photos/500?random=1"
           alt="raw material of stacked leather"
-          className="mx-auto"
+          className="mx-auto 
+          "
         />
-        <div className="my-auto sm:ml-10">
+        <div
+          className="md:ml-10 
+         justify-items-end p-5 mx-auto"
+        >
           <h1 className="text-2xl pb-2.5">Raw Material</h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             We start with highest quality vegetable tanned leather sourced
             directly and only from major tanneries in Italy. All our raw
             materials have been tested. Test reports can be provided upon
@@ -19,7 +26,7 @@ export default function Content() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2">
         <img
           src="https://picsum.photos/500?random=2"
           alt="colors of stacked leather"
@@ -27,7 +34,7 @@ export default function Content() {
         />
         <div className="my-auto sm:ml-10">
           <h1 className="text-2xl pb-2.5">Colors</h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             We stock multiple colors of raw material which includes Black,
             Brown, Natural and White. We source our brown and natural color from
             three different tanneries each as we there are slight variation in
@@ -37,7 +44,7 @@ export default function Content() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2">
         <img
           src="https://picsum.photos/500?random=3"
           alt="customisation of stacked leather"
@@ -45,7 +52,7 @@ export default function Content() {
         />
         <div className="my-auto sm:ml-10">
           <h1 className="text-2xl pb-2.5">Customization</h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Our experienced technicians carefully craft the leather pieces base
             on the heel samples provided. We have over 25 years of experience
             and whether customer are seeking simple heels like kitten and pumps
@@ -54,7 +61,7 @@ export default function Content() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2">
         <img
           src="https://picsum.photos/500?random=4"
           alt="quality outcome of stacked"
@@ -62,7 +69,7 @@ export default function Content() {
         />
         <div className="my-auto sm:ml-10">
           <h1 className="text-2xl pb-2.5">Quality Outcome</h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             With our in-house coloring and finishing, our company are able to
             provide even the most complicated designs customers. From two color
             leather heel covers to vertical-arranged heel covers, we are open
