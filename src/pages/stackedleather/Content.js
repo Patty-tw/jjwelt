@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Content() {
   return (
-    <div className="grid md:grid-rows-4 md:gap-5 md:px-5 leading-relaxed">
+    <div className="grid md:grid-rows-4 md:gap-10 md:px-5 leading-relaxed">
       <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=5"
