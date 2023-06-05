@@ -2,30 +2,30 @@ import React from "react";
 
 export default function Content() {
   return (
-    <div className="grid grid-rows-2 gap-5 leading-relaxed sm:px-5">
-      <div className="grid grid-cols-2">
+    <div className="grid md:grid-rows-2 md:gap-10 md:px-5 leading-relaxed">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=6"
           alt="dessicant"
-          className="mx-auto"
+          className="w-full md:mx-auto px-5"
         />
-        <div className="my-auto sm:ml-5">
+        <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Raw Material
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Our silica gel is Directive 2011/65/EU certified and does not
             contain Lead, Mercury, Cadmium and hazardous materials set by RoHS.
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=7"
           alt="dessicant"
-          className="mx-auto"
+          className="w-full md:mx-auto px-5"
         />
-        <div className="my-auto sm:ml-5">
+        <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Various sizes and packing
           </h1>

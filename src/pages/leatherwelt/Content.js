@@ -2,15 +2,15 @@ import React from "react";
 
 export default function Content() {
   return (
-    <div className="grid grid-rows-4 gap-5 sm:px-5 leading-relaxed">
-      <div className="grid grid-cols-2">
+    <div className="grid md:grid-rows-4 md:gap-10 md:px-5 leading-relaxed">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=5"
           alt="dessicant"
-          className="mx-auto"
+          className="w-full md:mx-auto px-5"
         />
         <div className="my-auto sm:ml-5">
-          <h1 className="text-2xl pb-2.5">
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Premium vegetable tanned leather sourced from around the world
           </h1>
           <p className="w-3/4">
@@ -21,28 +21,30 @@ export default function Content() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=1"
           alt="dessicant"
-          className="mx-auto"
+          className="w-full md:mx-auto px-5"
         />
         <div className="my-auto sm:ml-5">
-          <h1 className="text-2xl pb-2.5">Professional machinery from Italy</h1>
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
+            Professional machinery from Italy
+          </h1>
           <p className="w-3/4">
             All our machines are imported from Italy, ensuring highest possible
             craftsmanship.
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=2"
           alt="dessicant"
-          className="mx-auto"
+          className="w-full md:mx-auto px-5"
         />
         <div className="my-auto sm:ml-5">
-          <h1 className="text-2xl pb-2.5">
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Precision machines imported from Italy
           </h1>
           <p className="w-3/4">
@@ -51,14 +53,14 @@ export default function Content() {
           </p>
         </div>
       </div>
-      <div className="grid grid-cols-2">
+      <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=3"
           alt="dessicant"
-          className="mx-auto"
+          className="w-full md:mx-auto px-5"
         />
         <div className="my-auto sm:ml-5">
-          <h1 className="text-2xl pb-2.5">
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Customization according to requests
           </h1>
           <p className="w-3/4">

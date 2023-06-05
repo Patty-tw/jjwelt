@@ -10,7 +10,9 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">Raw Material</h1>
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
+            Raw Material
+          </h1>
           <p className="md:w-4/5">
             We start with highest quality vegetable tanned leather sourced
             directly and only from major tanneries in Italy. All our raw
@@ -26,7 +28,9 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">Colors</h1>
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
+            Colors
+          </h1>
           <p className="md:w-4/5">
             We stock multiple colors of raw material which includes Black,
             Brown, Natural and White. We source our brown and natural color from
@@ -44,7 +48,9 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">Customization</h1>
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
+            Customization
+          </h1>
           <p className="md:w-4/5">
             Our experienced technicians carefully craft the leather pieces base
             on the heel samples provided. We have over 25 years of experience
@@ -61,7 +67,9 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">Quality Outcome</h1>
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
+            Quality Outcome
+          </h1>
           <p className="md:w-4/5">
             With our in-house coloring and finishing, our company are able to
             provide even the most complicated designs customers. From two color

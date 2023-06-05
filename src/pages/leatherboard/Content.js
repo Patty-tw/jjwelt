@@ -10,7 +10,9 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">Introduction of leatherboard</h1>
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
+            Introduction of leatherboard
+          </h1>
           <p className="md:w-4/5">Extrusion</p>
         </div>
       </div>
@@ -21,7 +23,7 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Premium bonded leather material sourced from Italy and Germany
           </h1>
           <p className="md:w-4/5">
@@ -38,7 +40,7 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Precision machines imported from Italy
           </h1>
           <p className="md:w-4/5">
@@ -54,7 +56,7 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Spray painted to any color and finish
           </h1>
           <p className="md:w-4/5">
@@ -70,7 +72,7 @@ export default function Content() {
           className="w-full md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5">
+          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Customize to any design and dimensions
           </h1>
           <p className="md:w-4/5">
