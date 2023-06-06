@@ -29,7 +29,7 @@ export default function Content() {
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Various sizes and packing
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Sizes: We are able to produce sizes ranging from 1g, 2g, 3G, 4G, 5g,
             6g, 10g, 20g, 30g, 50g, 100g, 200g, 500g, 1000g. <br />
             Packing material: Compound paper, filter paper, non-woven paper.

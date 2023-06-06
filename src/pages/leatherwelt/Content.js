@@ -9,11 +9,11 @@ export default function Content() {
           alt="dessicant"
           className="w-full md:mx-auto px-5"
         />
-        <div className="my-auto sm:ml-5">
+        <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Premium vegetable tanned leather sourced from around the world
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Our company understands the color tone variations in leather from
             different regions. To be able to meet customer demands, our factory
             carries highest quality leather from Italy, Argentina and Brazil to
@@ -27,11 +27,11 @@ export default function Content() {
           alt="dessicant"
           className="w-full md:mx-auto px-5"
         />
-        <div className="my-auto sm:ml-5">
+        <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Professional machinery from Italy
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             All our machines are imported from Italy, ensuring highest possible
             craftsmanship.
           </p>
@@ -43,11 +43,11 @@ export default function Content() {
           alt="dessicant"
           className="w-full md:mx-auto px-5"
         />
-        <div className="my-auto sm:ml-5">
+        <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Precision machines imported from Italy
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             As with our leather welts, all bonded leather welt are manufactured
             and process with the same set of machines 100% from Italy.
           </p>
@@ -59,11 +59,11 @@ export default function Content() {
           alt="dessicant"
           className="w-full md:mx-auto px-5"
         />
-        <div className="my-auto sm:ml-5">
+        <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Customization according to requests
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Our experienced technicians can accommodate a variety of designs
             with endless possibilities. Goodyear, wheeling, pre-stitching,
             color, antiquing effects and many other special effects can be

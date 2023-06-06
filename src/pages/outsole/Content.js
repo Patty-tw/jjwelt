@@ -14,7 +14,7 @@ export default function Content() {
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Stock Fitting
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Leather, rubber and PU outsole assembly with in-house coloring.{" "}
           </p>
           <Link
@@ -35,7 +35,7 @@ export default function Content() {
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Stacked Leather
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Customized stacked leather based on customer's design. Made with
             finest leather sourced from Italy.
           </p>
@@ -57,7 +57,7 @@ export default function Content() {
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Dessicants
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             We supply safe dessicant packs that meets EU standards in various
             sizes packaging.
           </p>
