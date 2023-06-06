@@ -14,7 +14,7 @@ export default function Content() {
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Leather Welt
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Classic welt made from the finest selection of leather. The premium
             look and feel is an essential element in the overall quality of
             high-end dress shoes and boots.
@@ -37,7 +37,7 @@ export default function Content() {
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             Leatherboard Welt (Bonded Leather)
           </h1>
-          <p className="w-3/4">
+          <p className="md:w-4/5">
             Leatherboard welt is a economic alternative to leather welt. The
             texture and feel closely mimics that of leather counterpart.
           </p>
