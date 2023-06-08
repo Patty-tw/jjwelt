@@ -3,7 +3,7 @@ import React from "react";
 export default function Testimonial() {
   return (
     <div>
-      <h1 className="text-center md:text-2xl lg:text-4xl mt-10 mb-10">
+      <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px] text-center mt-10 md:mb-10">
         Our Customers
       </h1>
       <div className="grid grid-cols-3 md:grid-cols-4 mx-auto px-10 text-center">
