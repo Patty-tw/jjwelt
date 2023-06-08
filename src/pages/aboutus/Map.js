@@ -16,13 +16,13 @@ export default function Map(props) {
     <div>
       <div className="w-4/5 mx-auto">
         <Tab.Group>
-          <Tab.List className="flex">
+          <Tab.List className="flex justify-center">
             {mapData.map(({ id, country }) => (
               <Tab
                 key={id}
                 className={({ selected }) =>
                   classNames(
-                    "w-full rounded-lg py-2.5 text-lg font-medium leading-5",
+                    "w-1/4 rounded-lg py-2.5 text-lg font-medium leading-relaxed mx-10",
                     "ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
                     selected
                       ? "bg-white shadow text-orange-600"
@@ -47,7 +47,7 @@ export default function Map(props) {
                 <div>
                   <h1 className="text-2xl text-center">{posts.name}</h1>
                   <br />
-                  <p className="text-xl text-justify md:max-w-md lg:max-w-2xl mx-auto leading-normal">
+                  <p className="text-justify md:max-w-md lg:max-w-2xl mx-auto text-base md:text-lg lg:text-xl leading-relaxed">
                     {posts.present}
                   </p>
                 </div>
@@ -62,7 +62,7 @@ export default function Map(props) {
                     </GoogleMap>
                   </LoadScript>
                 </div>
-                <div className="basis-1/2 text-xl text-center leading-relaxed">
+                <div className="basis-1/2 text-center text-base md:text-lg lg:text-xl leading-relaxed">
                   <br />
                   <p>Opening hours: {posts.opening}</p>
                   <p>
