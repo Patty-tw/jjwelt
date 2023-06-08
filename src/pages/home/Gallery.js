@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Gallery() {
   return (
     <div>
-      <h1 className="text-[25px] text-center md:text-2xl lg:text-4xl mt-10 lg:mb-10">
+      <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px] text-center mt-10 md:mb-10">
         Products
       </h1>
       <div className="grid grid-cols-auto-fit gap-10 px-10 justify-items-center">
