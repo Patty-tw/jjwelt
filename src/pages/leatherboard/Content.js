@@ -11,9 +11,16 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Introduction of leatherboard
+            Production of leatherboard
           </h1>
-          <p className="md:w-4/5">Extrusion</p>
+          <p className="md:w-4/5">
+            Extrusion is a key process in the production of leatherboard welt.
+            Leather fibers and binders are mixed and melted in an extruder, then
+            shaped through a die to create the desired welt shape. The extruded
+            material is cooled, cut, and finished to meet quality standards.
+            This efficient and customizable process yields a durable and
+            versatile component for use in footwear manufacturing.
+          </p>
         </div>
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
