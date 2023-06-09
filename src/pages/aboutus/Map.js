@@ -22,8 +22,8 @@ export default function Map(props) {
                 key={id}
                 className={({ selected }) =>
                   classNames(
-                    "w-1/4 rounded-lg py-2.5 text-lg font-medium leading-relaxed mx-10",
-                    "ring-white ring-opacity-60 ring-offset-2 ring-offset-blue-400 focus:outline-none focus:ring-2",
+                    " w-1/3 md:w-1/4 rounded-lg py-2.5 text-lg font-medium leading-relaxed mx-10",
+                    "ring-white ring-opacity-60 focus:outline-none focus:ring-2",
                     selected
                       ? "bg-white shadow text-orange-600"
                       : " hover:bg-white/[0.12] hover:text-gray-300"
@@ -45,7 +45,9 @@ export default function Map(props) {
                 )}
               >
                 <div>
-                  <h1 className="text-2xl text-center">{posts.name}</h1>
+                  <h1 className="text-xl md:text-3xl lg:text-4xl text-center">
+                    {posts.name}
+                  </h1>
                   <br />
                   <p className="text-justify md:max-w-md lg:max-w-2xl mx-auto text-base md:text-lg lg:text-xl leading-relaxed">
                     {posts.present}
