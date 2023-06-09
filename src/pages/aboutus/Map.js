@@ -22,7 +22,7 @@ export default function Map(props) {
                 key={id}
                 className={({ selected }) =>
                   classNames(
-                    " w-1/3 md:w-1/4 rounded-lg py-2.5 text-lg font-medium leading-relaxed mx-10",
+                    " w-1/3 md:w-1/4 lg:w-1/5 rounded-lg px-4 py-2.5 text-lg font-medium leading-relaxed mx-10",
                     "ring-white ring-opacity-60 focus:outline-none focus:ring-2",
                     selected
                       ? "bg-white shadow text-orange-600"
