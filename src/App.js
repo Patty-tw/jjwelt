@@ -13,6 +13,7 @@ import LeatherWelt from "./pages/leatherwelt/LeatherWelt";
 import Outsole from "./pages/outsole/Outsole";
 import Footer from "./pages/Footer";
 import StockFitting from "./pages/stockfitting/StockFitting";
+import Language from "./pages/Language";
 
 export default function App() {
   const { pathname } = useLocation();
@@ -23,6 +24,7 @@ export default function App() {
 
   return (
     <main>
+      <Language />
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />

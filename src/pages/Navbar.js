@@ -3,13 +3,16 @@ import { Fragment, useState } from "react";
 import { Link } from "react-router-dom";
 import Contactus from "./Contactus";
 import { Menu, Transition } from "@headlessui/react";
+import { useTranslation } from "react-i18next";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [navOpen, setNavOpen] = useState(false);
 
+  const { t } = useTranslation();
+
   return (
-    <nav className="relative flex flex-wrap justify-between items-center md:h-[3.375rem md:flex-row lg:h-16 z-10">
+    <nav className="relative flex flex-wrap justify-between items-center md:h-[3.375rem] md:flex-row lg:h-16 z-10">
       <Link to="/" className=" text-4xl font-bold flex px-4 py-4 md:py-0">
         JENG JYI
       </Link>
@@ -43,10 +46,10 @@ export default function Navbar() {
       >
         <ul className="px-4 py-2 lg:text-lg lg:flex lg:items-center lg:gap-x-14 leading-relaxed">
           <Link to="/" className="flex py-2">
-            Home
+            {t("home")}
           </Link>
           <Link to="/plastic-welt" className="flex py-2">
-            Plastic Welt
+            {t("plastic welt")}
           </Link>
           <div>
             <Menu>
@@ -54,7 +57,7 @@ export default function Navbar() {
                 <>
                   <div className="relative inline-block text-left">
                     <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
-                      Welting
+                      {t("welting")}
                       <div
                         className={
                           open
@@ -84,7 +87,7 @@ export default function Navbar() {
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
                               >
-                                Overview
+                                {t("overview")}
                               </Link>
                             )}
                           </Menu.Item>
@@ -96,7 +99,7 @@ export default function Navbar() {
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
                               >
-                                Leather Welt
+                                {t("leather welt")}
                               </Link>
                             )}
                           </Menu.Item>
@@ -108,7 +111,7 @@ export default function Navbar() {
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
                               >
-                                Leatherboard Welt
+                                {t("leatherboard welt")}
                               </Link>
                             )}
                           </Menu.Item>
@@ -126,7 +129,7 @@ export default function Navbar() {
                 <>
                   <div className="relative inline-block text-left">
                     <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
-                      Outsole
+                      {t("outsole")}
                       <div
                         className={
                           open
@@ -155,7 +158,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              Overview
+                              {t("overview")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -167,7 +170,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              Stock Fitting
+                              {t("stock fitting")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -179,7 +182,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              Stacked Leather
+                              {t("stacked leather")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -191,7 +194,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              Desiccants
+                              {t("desiccants")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -204,7 +207,7 @@ export default function Navbar() {
           </div>
 
           <Link to="/aboutus" className="flex py-2">
-            About us
+            {t("about us")}
           </Link>
           <div className="lg:hidden inline-flex lg:mr-4   bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
             <button onClick={() => setIsOpen(true)}>Contact us</button>
@@ -212,9 +215,9 @@ export default function Navbar() {
           </div>
         </ul>
       </div>
-      <div className="hidden lg:block leading-relaxed px-4 py-2">
-        <div className="flex lg:mr-4   bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
-          <button onClick={() => setIsOpen(true)}>Contact us</button>
+      <div className="hidden lg:block leading-relaxed py-2">
+        <div className="flex lg:mr-4  bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
+          <button onClick={() => setIsOpen(true)}>{t("contact us")}</button>
           <Contactus open={isOpen} onClose={() => setIsOpen(false)} />
         </div>
       </div>
