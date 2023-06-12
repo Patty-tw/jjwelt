@@ -1,6 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Content() {
+  const { t } = useTranslation();
+
   return (
     <div className="grid md:grid-rows-4 md:gap-10 md:px-5 leading-relaxed">
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -11,7 +14,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Raw Material
+            {t("raw material")}
           </h1>
           <p className="md:w-4/5">
             We start with highest quality vegetable tanned leather sourced

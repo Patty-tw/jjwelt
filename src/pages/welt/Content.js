@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Content() {
+  const { t } = useTranslation();
   return (
     <div className="grid md:grid-rows-2 md:gap-10 md:px-5 leading-relaxed">
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -12,7 +14,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Leather Welt
+            {t("leather welt")}
           </h1>
           <p className="md:w-4/5">
             Classic welt made from the finest selection of leather. The premium
@@ -21,9 +23,9 @@ export default function Content() {
           </p>
           <Link
             to="/leather-welt"
-            className="flex mt-3 w-20 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="flex mt-3 w-[100px] justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Details
+            {t("details")}
           </Link>
         </div>
       </div>
@@ -35,7 +37,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Leatherboard Welt (Bonded Leather)
+            {t("leatherboard welt")}
           </h1>
           <p className="md:w-4/5">
             Leatherboard welt is a economic alternative to leather welt. The
@@ -43,9 +45,9 @@ export default function Content() {
           </p>
           <Link
             to="/leatherboard-welt"
-            className="flex mt-3 w-20 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="flex mt-3 w-[100px] justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Details
+            {t("details")}
           </Link>
         </div>
       </div>

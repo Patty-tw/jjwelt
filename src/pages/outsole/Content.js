@@ -1,7 +1,9 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 export default function Content() {
+  const { t } = useTranslation();
   return (
     <div className="grid md:grid-rows-3 md:gap-10 md:px-5 leading-relaxed">
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -12,16 +14,16 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Stock Fitting
+            {t("stock fitting")}
           </h1>
           <p className="md:w-4/5">
-            Leather, rubber and PU outsole assembly with in-house coloring.{" "}
+            Leather, rubber and PU outsole assembly with in-house coloring.
           </p>
           <Link
             to="/outsole-stock-fitting"
-            className="flex mt-3 w-20 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="flex mt-3 w-[100px] justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Details
+            {t("details")}
           </Link>
         </div>
       </div>
@@ -33,7 +35,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Stacked Leather
+            {t("stacked leather")}
           </h1>
           <p className="md:w-4/5">
             Customized stacked leather based on customer's design. Made with
@@ -41,9 +43,9 @@ export default function Content() {
           </p>
           <Link
             to="/stacked-leather"
-            className="flex mt-3 w-20 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="flex mt-3 w-[100px] justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Details
+            {t("details")}
           </Link>
         </div>
       </div>
@@ -55,7 +57,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Dessicants
+            {t("desiccants")}
           </h1>
           <p className="md:w-4/5">
             We supply safe dessicant packs that meets EU standards in various
@@ -63,9 +65,9 @@ export default function Content() {
           </p>
           <Link
             to="/desiccant"
-            className="flex mt-3 w-20 justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+            className="flex mt-3 w-[100px] justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
           >
-            Details
+            {t("details")}
           </Link>
         </div>
       </div>

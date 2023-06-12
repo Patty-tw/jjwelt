@@ -4,7 +4,7 @@ export const mapData = [
     country: "Taiwan",
     name: "Ever Luck Company Limited",
     present:
-      "Ever was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers in welt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded ourproduction into outsole stockfitting and leather heel cover production.",
+      "Ever Luck was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers in welt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded ourproduction into outsole stockfitting and leather heel cover production.",
     opening: "9am - 5pm",
     road: "No. 3, Alley 2, Lane 569, Caoxi Rd",
     suburb: "Caotun Township",
