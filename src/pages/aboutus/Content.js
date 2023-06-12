@@ -6,7 +6,7 @@ export default function Content() {
   return (
     <div className="items-center p-10">
       <p className="m-3 text-base md:text-lg lg:text-xl mx-auto md:max-w-md lg:max-w-2xl leading-relaxed">
-        {t("about us - content")}
+        {t("about_us.about us - content")}
       </p>
     </div>
   );

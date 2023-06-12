@@ -49,7 +49,7 @@ export default function Navbar() {
             {t("home")}
           </Link>
           <Link to="/plastic-welt" className="flex py-2">
-            {t("plastic welt")}
+            {t("product.plastic welt")}
           </Link>
           <div>
             <Menu>
@@ -57,7 +57,7 @@ export default function Navbar() {
                 <>
                   <div className="relative inline-block text-left">
                     <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
-                      {t("welting")}
+                      {t("product.welting")}
                       <div
                         className={
                           open
@@ -87,7 +87,7 @@ export default function Navbar() {
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
                               >
-                                {t("overview")}
+                                {t("product.overview")}
                               </Link>
                             )}
                           </Menu.Item>
@@ -99,7 +99,7 @@ export default function Navbar() {
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
                               >
-                                {t("leather welt")}
+                                {t("product.leather welt")}
                               </Link>
                             )}
                           </Menu.Item>
@@ -111,7 +111,7 @@ export default function Navbar() {
                                   active ? "bg-gray-100" : "text-gray-900"
                                 } group flex w-full rounded-md px-2 py-2 text-sm`}
                               >
-                                {t("leatherboard welt")}
+                                {t("product.leatherboard welt")}
                               </Link>
                             )}
                           </Menu.Item>
@@ -129,7 +129,7 @@ export default function Navbar() {
                 <>
                   <div className="relative inline-block text-left">
                     <Menu.Button className="inline-flex w-full justify-center rounded-md py-2">
-                      {t("outsole")}
+                      {t("product.outsole")}
                       <div
                         className={
                           open
@@ -158,7 +158,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              {t("overview")}
+                              {t("product.overview")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -170,7 +170,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              {t("stock fitting")}
+                              {t("product.stock fitting")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -182,7 +182,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              {t("stacked leather")}
+                              {t("product.stacked leather")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -194,7 +194,7 @@ export default function Navbar() {
                                 active ? "bg-gray-100" : "text-gray-900"
                               } group flex w-full rounded-md px-2 py-2 text-sm`}
                             >
-                              {t("desiccants")}
+                              {t("product.desiccants")}
                             </Link>
                           )}
                         </Menu.Item>
@@ -207,7 +207,7 @@ export default function Navbar() {
           </div>
 
           <Link to="/aboutus" className="flex py-2">
-            {t("about us")}
+            {t("about_us.about us")}
           </Link>
           <div className="lg:hidden inline-flex lg:mr-4   bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
             <button onClick={() => setIsOpen(true)}>Contact us</button>

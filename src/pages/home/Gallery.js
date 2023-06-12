@@ -8,7 +8,7 @@ export default function Gallery() {
   return (
     <div>
       <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px] text-center mt-10 md:mb-10">
-        {t("products")}
+        {t("product.products")}
       </h1>
       <div className="grid grid-cols-auto-fit gap-10 px-10 justify-items-center">
         <div className="max-w-sm rounded overflow-hidden shadow-lg object-cover object-center">
@@ -19,7 +19,7 @@ export default function Gallery() {
               alt="leather welt"
             />
             <p className="flex font-bold items-center justify-center h-20">
-              {t("leather welt")}
+              {t("product.leather welt")}
             </p>
           </Link>
         </div>
@@ -31,7 +31,7 @@ export default function Gallery() {
               alt="leatherboard welt"
             />
             <p className="flex font-bold items-center justify-center h-20">
-              {t("leatherboard welt")}
+              {t("product.leatherboard welt")}
             </p>
           </Link>
         </div>
@@ -43,7 +43,7 @@ export default function Gallery() {
               alt="plastic welt"
             />
             <p className="flex font-bold items-center justify-center h-20">
-              {t("plastic welt")}
+              {t("product.plastic welt")}
             </p>
           </Link>
         </div>
@@ -55,7 +55,7 @@ export default function Gallery() {
               alt="stacked leather"
             />
             <p className="flex font-bold items-center justify-center h-20">
-              {t("stacked leather")}
+              {t("product.stacked leather")}
             </p>
           </Link>
         </div>
@@ -67,7 +67,7 @@ export default function Gallery() {
               alt="outsole stock fitting"
             />
             <p className="flex font-bold items-center justify-center h-20">
-              {t("stock fitting")}
+              {t("product.stock fitting")}
             </p>
           </Link>
         </div>
@@ -79,7 +79,7 @@ export default function Gallery() {
               alt="desiccant"
             />
             <p className="flex font-bold items-center justify-center h-20">
-              {t("desiccants")}
+              {t("product.desiccants")}
             </p>
           </Link>
         </div>
