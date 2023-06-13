@@ -12,8 +12,8 @@ export default function Navbar() {
   const { t } = useTranslation();
 
   return (
-    <nav className="relative flex flex-wrap justify-between items-center md:h-[3.375rem] md:flex-row lg:h-16 z-10">
-      <Link to="/" className=" text-4xl font-bold flex px-4 py-4 md:py-0">
+    <nav className="relative flex flex-wrap justify-between items-center  lg:h-16 z-10">
+      <Link to="/" className="text-4xl font-bold flex px-4 py-4 md:py-0">
         JENG JYI
       </Link>
 

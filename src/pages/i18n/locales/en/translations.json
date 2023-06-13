@@ -1,6 +1,7 @@
 {
     "home": "Home",
     "contact us": "Contact us",
+
     "product":{
         "products": "Products",
         "plastic welt": "Plastic Welt",
@@ -12,6 +13,7 @@
         "stock fitting": "Stock Fitting",
         "stacked leather": "Stacked Leather",
         "desiccants": "Desiccants"},
+
     "about_us":{
             "about us": "About us",
             "about our company": "About Our Company",
@@ -20,5 +22,4 @@
     "testimonial": "Our customers",
     "details": "Details",
     "raw material": "Raw Meterial"
-
 }
