@@ -1,8 +1,11 @@
 {
     "home": "Home",
     "contact us": "Contact us",
+    "testimonial": "Our customers",
+    "details": "Details",
+    "raw material": "Raw Meterial",
 
-    "product":{
+    "product": {
         "products": "Products",
         "plastic welt": "Plastic Welt",
         "welting": "Welting",
@@ -14,13 +17,13 @@
         "stacked leather": "Stacked Leather",
         "desiccants": "Desiccants"},
 
-    "about_us":{
+    "about_us": {
             "about us": "About us",
             "about our company": "About Our Company",
             "about us - content": "Since 1989, our company has been a trusted supplier of leather welts and shoe-related components to major global brands. With two strategically located factories in Guangzhou, China, and Ho Chi Minh City, Vietnam, we are committed to providing exceptional service and quick turnaround times to our clients in the shoe-manufacturing industry."
         },
 
-    "contact_us_form":{
+    "contact_us_form": {
         "name": "Name",
         "email": "Email",
         "enquiry": "Enquiry",
@@ -28,7 +31,15 @@
         "submit": "Submit"
     },
 
-    "testimonial": "Our customers",
-    "details": "Details",
-    "raw material": "Raw Meterial"
+    "plastic_welt_page": {
+        "raw material content": "All our raw materials are tested and conform to the standard set by EU testing requirements, EN 71-3:2013. We stock PVC, TPR, TR, TPU, Rubber materials ready to accommodate customers' needs.",
+        "pvc welt": "PVC Welt",
+        "pvc welt content": "We use only environmental-friendly PVC raw material for our welt. PVC welt is lowest in price among other plastic materials.",
+        "tr, tpr, tpu welt": "TR, TPR, TPU Welt",
+        "tr, tpr, tpu welt content": "Our company stock a wide variety of materials to dedicate to each customer's needs.",
+        "colour welt": "Multi-colour welt and Combination welt",
+        "colour welt content": "Our in-house mold shop and our experience allow us to produce multi-color welt through co-extrusion. Our company is able to produce 2-color, 3-color, and/or PVC+leather welt as specified by customers."
+
+
+    }
 }

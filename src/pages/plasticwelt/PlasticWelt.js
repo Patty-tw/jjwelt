@@ -1,13 +1,12 @@
 import React from "react";
-import Banner from "./Banner";
+import Hero from "./Hero";
 import Content from "./Content";
 
-
-export default function PlasticWelt(){
-    return(
-        <>
-            <Banner/>    
-            <Content/>    
-        </>
-    )
+export default function PlasticWelt() {
+  return (
+    <>
+      <Hero />
+      <Content />
+    </>
+  );
 }

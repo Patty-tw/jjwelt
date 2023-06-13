@@ -1,8 +1,11 @@
 {
     "home": "首頁",
     "contact us": "聯繫我們",
+    "testimonial": "我們的客戶",
+    "details": "了解更多",
+    "raw material": "原料",
 
-    "product":{
+    "product": {
         "products": "產品",
         "plastic welt": "橡膠沿條",
         "welting": "沿條",
@@ -15,13 +18,13 @@
         "desiccants": "乾燥劑"
         },
 
-    "about_us":{
+    "about_us": {
         "about us": "關於我們",
         "about our company": "關於正吉",
         "about us - content": "自1989年起，我們的公司一直是主要全球品牌信賴的皮革鞋條和鞋類配件供應商。憑藉位於中國廣州和越南胡志明市的兩個戰略位置工廠，我們致力於為鞋類製造業的客戶提供卓越的服務和快速的交貨時間。"
         },
 
-    "contact_us_form":{
+    "contact_us_form": {
         "name": "姓名",
         "email": "電子郵件地址",
         "enquiry": "您要詢問關於:",
@@ -29,7 +32,15 @@
         "submit": "提交"
     },
     
-    "testimonial": "我們的客戶",
-    "details": "了解更多",
-    "raw material": "原料"
+    "plastic_welt_page": {
+        "raw material content": "我們所有的原材料都經過測試，符合歐盟測試EN 71-3:2013設定的標準。我們備有PVC、TPR、TR、TPU、橡膠等多種材料，以滿足客戶的需求。",
+        "pvc welt": "PVC 沿條",
+        "pvc welt content": "我們使用環保的PVC原材料來製造我們的皮革鞋條。PVC鞋條在塑膠材料中價格最低。",
+        "tr, tpr, tpu welt": "TR, TPR, TPU 沿條",
+        "tr, tpr, tpu welt content": "我們公司備有多種材料，以滿足每位客戶的需求。",
+        "colour welt": "Multi-colour welt and Combination welt",
+        "colour welt content": "我們內部的模具製作工廠和豐富的經驗使我們能夠通過共擠成型生產多色皮革鞋條。我們公司能夠根據客戶的要求生產2色、3色或PVC+皮革鞋條。"
+
+    }
+    
 }

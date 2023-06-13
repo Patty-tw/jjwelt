@@ -17,9 +17,7 @@ export default function Content() {
             {t("raw material")}
           </h1>
           <p className="md:w-4/5">
-            All our raw materials are tested and conform to the standard set by
-            EU testing requirements, EN 71-3:2013. We stock PVC, TPR, TR, TPU,
-            Rubber materials ready to accommodate customers' needs.
+            {t("plastic_welt_page.raw material content")}
           </p>
         </div>
       </div>
@@ -31,12 +29,9 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            PVC Welt
+            {t("plastic_welt_page.pvc welt")}
           </h1>
-          <p className="md:w-4/5">
-            We use only environmental-friendly PVC raw material for our welt.
-            PVC welt is lowest in price among other plastic materials.
-          </p>
+          <p className="md:w-4/5">{t("plastic_welt_page.pvc welt content")}</p>
         </div>
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -47,11 +42,10 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            TR, TPR, TPU Welt
+            {t("plastic_welt_page.tr, tpr, tpu welt")}
           </h1>
           <p className="md:w-4/5">
-            Our company stock a wide variety of materials to dedicate to each
-            customer's needs.
+            {t("plastic_welt_page.tr, tpr, tpu welt content")}
           </p>
         </div>
       </div>
@@ -63,13 +57,10 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Multi-color welt and Combination welt
+            {t("plastic_welt_page.colour welt")}
           </h1>
           <p className="md:w-4/5">
-            Our in-house mold shop and our experience allow us to produce
-            multi-color welt through co-extrusion. Our company is able to
-            produce 2-color, 3-color, and/or PVC+leather welt as specified by
-            customers.
+            {t("plastic_welt_page.colour welt content")}
           </p>
         </div>
       </div>
