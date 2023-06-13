@@ -1,15 +1,14 @@
 import React from "react";
-import Banner from "./Banner";
+import Hero from "./Hero";
 import Content from "./Content";
 import Gallery from "./Gallery";
 
-
-export default function LeatherBoard(){
-    return (
-        <div>
-            <Banner/>    
-            <Content/>   
-            <Gallery />  
-        </div>
-    )
+export default function LeatherBoard() {
+  return (
+    <div>
+      <Hero />
+      <Content />
+      <Gallery />
+    </div>
+  );
 }

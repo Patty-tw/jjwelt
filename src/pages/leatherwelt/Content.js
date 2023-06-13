@@ -1,8 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Content() {
+  const { t } = useTranslation();
   return (
-    <div className="grid md:grid-rows-4 md:gap-10 md:px-5 leading-relaxed">
+    <div className="grid md:grid-rows-3 md:gap-10 md:px-5 leading-relaxed">
       <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=5"
@@ -11,14 +13,9 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Premium vegetable tanned leather sourced from around the world
+            {t("leather_welt.material")}
           </h1>
-          <p className="md:w-4/5">
-            Our company understands the color tone variations in leather from
-            different regions. To be able to meet customer demands, our factory
-            carries highest quality leather from Italy, Argentina and Brazil to
-            satisfy all product styles.
-          </p>
+          <p className="md:w-4/5">{t("leather_welt.material content")}</p>
         </div>
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -29,28 +26,9 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Professional machinery from Italy
+            {t("leather_welt.machine")}
           </h1>
-          <p className="md:w-4/5">
-            All our machines are imported from Italy, ensuring highest possible
-            craftsmanship.
-          </p>
-        </div>
-      </div>
-      <div className="md:grid md:grid-cols-2 md:items-center">
-        <img
-          src="https://picsum.photos/500?random=2"
-          alt="dessicant"
-          className="w-full md:mx-auto px-5"
-        />
-        <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Precision machines imported from Italy
-          </h1>
-          <p className="md:w-4/5">
-            As with our leather welts, all bonded leather welt are manufactured
-            and process with the same set of machines 100% from Italy.
-          </p>
+          <p className="md:w-4/5">{t("leather_welt.material content")}</p>
         </div>
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -61,14 +39,9 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Customization according to requests
+            {t("leather_welt.customise")}
           </h1>
-          <p className="md:w-4/5">
-            Our experienced technicians can accommodate a variety of designs
-            with endless possibilities. Goodyear, wheeling, pre-stitching,
-            color, antiquing effects and many other special effects can be
-            achieved in-house.
-          </p>
+          <p className="md:w-4/5">{t("leather_welt.customise content")}</p>
         </div>
       </div>
     </div>

@@ -46,8 +46,13 @@
         "leatherboard welt content": "Leatherboard welt is a economic alternative to leather welt. The texture and feel closely mimics that of leather counterpart."
     },
 
-    "leather welt":{
-
+    "leather_welt":{
+        "material" : "Raw Material",
+        "material content" : "Our premium vegetable-tanned leather is carefully sourced from diverse locations worldwide. We value and embrace the distinctive color tone variations that arise in leather from different regions. To fulfill the diverse demands of our customers, our factory meticulously selects the finest quality leather from renowned origins, including Italy, Argentina, and Brazil. This meticulous selection guarantees our ability to meet all product styles with exceptional materials.",
+        "machine": "Italian Imported Machinery",
+        "machine content": "We have made significant investments in precision machines directly imported from Italy, ensuring the highest level of craftsmanship possible.",
+        "customise": "Customisation",
+        "customise content": "Our team of skilled technicians excels in accommodating a wide range of design preferences, offering limitless possibilities. Whether it's Goodyear stitching, wheeling, pre-stitching, color customization, antiquing effects, or any other special effects, we have the expertise to achieve them in-house."
     },
 
     "leatherboard_welt":{
