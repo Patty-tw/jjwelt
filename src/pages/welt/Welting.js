@@ -1,11 +1,11 @@
 import React from "react";
-import WeltingHero from "./WeltingHero";
+import Hero from "./Hero";
 import Content from "./Content";
 
 export default function Desiccant() {
   return (
     <div>
-      <WeltingHero />
+      <Hero />
       <Content />
     </div>
   );

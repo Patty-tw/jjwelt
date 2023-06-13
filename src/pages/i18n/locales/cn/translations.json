@@ -41,6 +41,11 @@
         "colour welt": "Multi-colour welt and Combination welt",
         "colour welt content": "我們內部的模具製作工廠和豐富的經驗使我們能夠通過共擠成型生產多色皮革鞋條。我們公司能夠根據客戶的要求生產2色、3色或PVC+皮革鞋條。"
 
+    },
+
+    "welting_page":{
+        "leather welt content": "經典皮革鞋條選用最優質的皮革製成。其高級的外觀和觸感是高端正裝鞋和靴子整體品質的重要元素。",
+        "leatherboard welt content": "皮板鞋條是皮革鞋條的經濟替代品。其紋理和觸感與真皮鞋條非常相似。"
     }
     
 }

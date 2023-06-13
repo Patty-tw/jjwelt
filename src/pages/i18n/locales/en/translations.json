@@ -39,7 +39,11 @@
         "tr, tpr, tpu welt content": "Our company stock a wide variety of materials to dedicate to each customer's needs.",
         "colour welt": "Multi-colour welt and Combination welt",
         "colour welt content": "Our in-house mold shop and our experience allow us to produce multi-color welt through co-extrusion. Our company is able to produce 2-color, 3-color, and/or PVC+leather welt as specified by customers."
+    },
 
-
+    "welting_page":{
+        "leather welt content": "Classic welt made from the finest selection of leather. The premium look and feel is an essential element in the overall quality of high-end dress shoes and boots.",
+        "leatherboard welt content": "Leatherboard welt is a economic alternative to leather welt. The texture and feel closely mimics that of leather counterpart."
     }
+
 }

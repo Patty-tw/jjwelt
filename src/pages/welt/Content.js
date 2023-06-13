@@ -14,13 +14,9 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            {t("leather welt")}
+            {t("product.leather welt")}
           </h1>
-          <p className="md:w-4/5">
-            Classic welt made from the finest selection of leather. The premium
-            look and feel is an essential element in the overall quality of
-            high-end dress shoes and boots.
-          </p>
+          <p className="md:w-4/5">{t("welting_page.leather welt content")}</p>
           <Link
             to="/leather-welt"
             className="flex mt-3 w-[100px] justify-center bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
@@ -29,7 +25,7 @@ export default function Content() {
           </Link>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-2 md:items-center">
+      <div className="md:grid md:grid-cols-2 md:items-center ">
         <img
           src="https://picsum.photos/500?random=2"
           alt="dessicant"
@@ -37,11 +33,10 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            {t("leatherboard welt")}
+            {t("product.leatherboard welt")}
           </h1>
-          <p className="md:w-4/5">
-            Leatherboard welt is a economic alternative to leather welt. The
-            texture and feel closely mimics that of leather counterpart.
+          <p className="md:w-4/5 ">
+            {t("welting_page.leatherboard welt content")}
           </p>
           <Link
             to="/leatherboard-welt"
