@@ -22,11 +22,11 @@
         },
 
     "contact_us_form":{
-        "name": "name",
-        "email": "email",
-        "enquiry": "enquiry",
-        "message": "message",
-        "submit": "submit"
+        "name": "姓名",
+        "email": "電子郵件地址",
+        "enquiry": "您要詢問關於:",
+        "message": "信息",
+        "submit": "提交"
     },
     
     "testimonial": "我們的客戶",

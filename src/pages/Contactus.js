@@ -1,5 +1,9 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
+
 export default function Contactus({ open, onClose }) {
+  const { t } = useTranslation();
+
   if (!open) return null;
   return (
     <div className="relative z-10" onClick={onClose}>
@@ -13,46 +17,46 @@ export default function Contactus({ open, onClose }) {
           >
             <div>
               <h3 className="text-lg font-medium leading-6 text-gray-900">
-                Contact Us
+                {t("contact us")}
               </h3>
               <div className="mt-2">
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
-                  Name
+                  {t("contact_us_form.name")}
                 </label>
                 <input
                   className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:outline-none focus:border-teal-500 focus:ring-teal-500"
                   type="text"
-                  placeholder="Name"
+                  placeholder={t("contact_us_form.name")}
                   name="Name"
                 />
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
-                  Email
+                  {t("contact_us_form.email")}
                 </label>
                 <input
                   className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:outline-none focus:border-teal-500 focus:ring-teal-500"
                   type="email"
-                  placeholder="Email"
+                  placeholder={t("contact_us_form.email")}
                   name="Name"
                 />
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
-                  Enquiry
+                  {t("contact_us_form.enquiry")}
                 </label>
                 <select
                   name="enquiry"
-                  className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500"
+                  className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500 text-black"
                 >
                   <option>-- Choose --</option>
                   <option>General Enquiry</option>
                   <option>Sample request</option>
                 </select>
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
-                  Message
+                  {t("contact_us_form.message")}
                 </label>
-                <input
+                <textarea
                   className="border-2 border-gray-500 p-2 rounded-md w-full focus:outline-none focus:border-teal-500 focus:ring-teal-500"
-                  type="textarea"
-                  name="comment"
-                />
+                  name="message"
+                  rows={2}
+                ></textarea>
               </div>
               <div className="mt-4">
                 <button
@@ -60,7 +64,7 @@ export default function Contactus({ open, onClose }) {
                   className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
                   onClick={onClose}
                 >
-                  Submit
+                  {t("contact_us_form.submit")}
                 </button>
               </div>
             </div>

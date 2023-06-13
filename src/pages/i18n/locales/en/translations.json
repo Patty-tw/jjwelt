@@ -19,6 +19,15 @@
             "about our company": "About Our Company",
             "about us - content": "Since 1989, our company has been a trusted supplier of leather welts and shoe-related components to major global brands. With two strategically located factories in Guangzhou, China, and Ho Chi Minh City, Vietnam, we are committed to providing exceptional service and quick turnaround times to our clients in the shoe-manufacturing industry."
         },
+
+    "contact_us_form":{
+        "name": "Name",
+        "email": "Email",
+        "enquiry": "Enquiry",
+        "message": "Message",
+        "submit": "Submit"
+    },
+
     "testimonial": "Our customers",
     "details": "Details",
     "raw material": "Raw Meterial"
