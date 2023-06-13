@@ -1,12 +1,12 @@
 import React from "react";
-import Banner from "./Banner";
+import Hero from "./Hero";
 import Content from "./Content";
 import Gallery from "./Gallery";
 
 export default function LeatherWelt() {
   return (
     <div>
-      <Banner />
+      <Hero />
       <Content />
       <Gallery />
     </div>

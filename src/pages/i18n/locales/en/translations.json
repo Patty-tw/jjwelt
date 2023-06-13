@@ -44,6 +44,21 @@
     "welting_page":{
         "leather welt content": "Classic welt made from the finest selection of leather. The premium look and feel is an essential element in the overall quality of high-end dress shoes and boots.",
         "leatherboard welt content": "Leatherboard welt is a economic alternative to leather welt. The texture and feel closely mimics that of leather counterpart."
+    },
+
+    "leather welt":{
+
+    },
+
+    "leatherboard_welt":{
+        "production": "Production of leatherboard",
+        "production content": "Extrusion is a key process in the production of leatherboard welt. Leather fibers and binders are mixed and melted in an extruder, then shaped through a die to create the desired welt shape. The extruded material is cooled, cut, and finished to meet quality standards. This efficient and customizable process yields a durable and versatile component for use in footwear manufacturing.",
+        "material" : "Raw Material",
+        "material content" : "Our premium bonded leather material is carefully sourced from Italy and Germany. The raw material is created by blending leather scrap with other proprietary mixtures to achieve a luxurious leather-like texture. The material is available in various thicknesses ranging from 2.0mm to 5.0mm, with increments of 0.5mm.",
+        "machine": "Italian Imported Machinery",
+        "machine content": "We have invested in precision machines imported directly from Italy. Similar to our leather welts, all bonded leather welts are meticulously crafted and processed using the same state-of-the-art Italian machinery, ensuring consistent quality throughout the manufacturing process.",
+        "customise": "Customisation",
+        "customise content": "Our experienced technicians have the capability to spray paint the welt in any desired color and finish, whether it's a solid hue, polka-dots, antiqued appearance, or even a faux-leather effect. This flexibility allows for endless customization options. In addition to the customization in color and finish, we can also tailor the welt to any design and dimensions to meet our customers' specific requirements. This makes our welts a great alternative for those seeking a premium leather-like feel at a more affordable price point."
     }
 
 }

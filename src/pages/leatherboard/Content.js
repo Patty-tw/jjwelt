@@ -1,8 +1,10 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 export default function Content() {
+  const { t } = useTranslation();
   return (
-    <div className="grid md:grid-rows-5 md:gap-10 md:px-5 leading-relaxed">
+    <div className="grid md:grid-rows-4 md:gap-10 md:px-5 leading-relaxed">
       <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=5"
@@ -11,15 +13,10 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Production of leatherboard
+            {t("leatherboard_welt.production")}
           </h1>
           <p className="md:w-4/5">
-            Extrusion is a key process in the production of leatherboard welt.
-            Leather fibers and binders are mixed and melted in an extruder, then
-            shaped through a die to create the desired welt shape. The extruded
-            material is cooled, cut, and finished to meet quality standards.
-            This efficient and customizable process yields a durable and
-            versatile component for use in footwear manufacturing.
+            {t("leatherboard_welt.production content")}
           </p>
         </div>
       </div>
@@ -31,13 +28,9 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Premium bonded leather material sourced from Italy and Germany
+            {t("leatherboard_welt.material")}
           </h1>
-          <p className="md:w-4/5">
-            Raw material is made from a mixture of leather scrap and other
-            proprietary mixture to create a leather-like feel. <br />
-            Material thickness range from 2.0mm to 5.0mm, in 0.5mm increments.
-          </p>
+          <p className="md:w-4/5">{t("leatherboard_welt.material content")}</p>
         </div>
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -48,30 +41,12 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Precision machines imported from Italy
+            {t("leatherboard_welt.machine")}
           </h1>
-          <p className="md:w-4/5">
-            As with our leather welts, all bonded leather welt are manufactured
-            and process with the same set of machines 100% from Italy.
-          </p>
+          <p className="md:w-4/5">{t("leatherboard_welt.machine content")}</p>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-2 md:items-center">
-        <img
-          src="https://picsum.photos/500?random=3"
-          alt="dessicant"
-          className="w-full md:mx-auto px-5"
-        />
-        <div className="md:ml-10 p-5 mx-auto">
-          <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Spray painted to any color and finish
-          </h1>
-          <p className="md:w-4/5">
-            Our experience technicians are able to spray paint any color and
-            effect including polka-dots, antiqued and faux-leather.
-          </p>
-        </div>
-      </div>
+
       <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=4"
@@ -80,12 +55,9 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Customize to any design and dimensions
+            {t("leatherboard_welt.customise")}
           </h1>
-          <p className="md:w-4/5">
-            Great alternative for customers looking for leather-like premium
-            feel at a lower price.
-          </p>
+          <p className="md:w-4/5">{t("leatherboard_welt.customise content")}</p>
         </div>
       </div>
     </div>
