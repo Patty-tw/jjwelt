@@ -1,13 +1,13 @@
 import React from "react";
-import Banner from "./Banner";
+import Hero from "./Hero";
+
 import Content from "./Content";
 
-
-export default function Outsole(){
-    return(
-        <>
-            <Banner/>    
-            <Content/>    
-        </>
-    )
+export default function Outsole() {
+  return (
+    <>
+      <Hero />
+      <Content />
+    </>
+  );
 }
