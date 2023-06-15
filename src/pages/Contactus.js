@@ -45,9 +45,9 @@ export default function Contactus({ open, onClose }) {
                   name="enquiry"
                   className="mb-2 border-2 border-gray-500 p-2 rounded-md w-full focus:border-teal-500 focus:ring-teal-500 text-black"
                 >
-                  <option>-- Choose --</option>
-                  <option>General Enquiry</option>
-                  <option>Sample request</option>
+                  <option></option>
+                  <option>{t("contact_us_form.general enquiry")}</option>
+                  <option>{t("contact_us_form.sample request")}</option>
                 </select>
                 <label className="block uppercase tracking-wide text-gray-700 text-xs font-bold mb-2">
                   {t("contact_us_form.message")}

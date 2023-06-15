@@ -30,7 +30,9 @@
         "email": "電子郵件地址",
         "enquiry": "您要詢問關於:",
         "message": "信息",
-        "submit": "提交"
+        "submit": "提交",
+        "general enquiry": "General Enquiry", 
+        "sample request": "Sample Request"
     },
     
     "plastic_welt_page": {
@@ -69,6 +71,11 @@
         "customise": "客製化",
         "customise content": "我們經驗豐富的技術人員具備將鞋條噴漆成任何所需的顏色和表面效果的能力，不論是單色、波點、仿古外觀還是仿皮革效果。這種靈活性提供了無盡的定制選擇。除了顏色和表面處理的定制外，我們還可以根據客戶的具體需求量身定制鞋條的設計和尺寸。這使得我們的鞋條成為那些追求高級仿皮革觸感且價格更實惠的理想選擇。"
 
+    },
+    
+    "stock_fitting":{
+        "women": "女士大底",
+        "men": "男士大底"
     }
     
 }

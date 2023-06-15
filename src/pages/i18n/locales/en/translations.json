@@ -28,7 +28,9 @@
         "email": "Email",
         "enquiry": "Enquiry",
         "message": "Message",
-        "submit": "Submit"
+        "submit": "Submit", 
+        "general enquiry": "General Enquiry", 
+        "sample request": "Sample Request"
     },
 
     "plastic_welt_page": {
@@ -64,6 +66,12 @@
         "machine content": "We have invested in precision machines imported directly from Italy. Similar to our leather welts, all bonded leather welts are meticulously crafted and processed using the same state-of-the-art Italian machinery, ensuring consistent quality throughout the manufacturing process.",
         "customise": "Customisation",
         "customise content": "Our experienced technicians have the capability to spray paint the welt in any desired color and finish, whether it's a solid hue, polka-dots, antiqued appearance, or even a faux-leather effect. This flexibility allows for endless customization options. In addition to the customization in color and finish, we can also tailor the welt to any design and dimensions to meet our customers' specific requirements. This makes our welts a great alternative for those seeking a premium leather-like feel at a more affordable price point."
+    },
+
+    "stock_fitting":{
+        "women": "Women's Outsole",
+        "men": "Men's Outsole"
     }
+
 
 }
