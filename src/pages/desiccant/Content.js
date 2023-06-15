@@ -16,10 +16,7 @@ export default function Content() {
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
             {t("raw material")}
           </h1>
-          <p className="md:w-4/5">
-            Our silica gel is Directive 2011/65/EU certified and does not
-            contain Lead, Mercury, Cadmium and hazardous materials set by RoHS.
-          </p>
+          <p className="md:w-4/5">{t("desiccant.raw material content")}</p>
         </div>
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
@@ -30,18 +27,16 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            Various sizes and packing
+            {t("desiccant.size and packaging")}
           </h1>
           <p className="md:w-4/5">
-            Sizes: We are able to produce sizes ranging from 1g, 2g, 3G, 4G, 5g,
-            6g, 10g, 20g, 30g, 50g, 100g, 200g, 500g, 1000g. <br />
-            Packing material: Compound paper, filter paper, non-woven paper.
+            {t("desiccant.size content")}
             <br />
-            Printed Text: We have a wide selection of languages printed on the
-            packing which includes English, Chinese, French, German etc.
+            {t("desiccant.packing content")}
             <br />
-            Ordering Info: Minimum order is 10000 pieces, increments of 100.
-            Rate: $60/10000pcs(3g) , negotiable with volume.
+            {t("desiccant.text")}
+            <br />
+            {t("desiccant.ordering info")}
           </p>
         </div>
       </div>

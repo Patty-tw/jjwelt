@@ -1,12 +1,12 @@
 import React from "react";
-import DesHero from "./DesHero";
+import Hero from "./Hero";
 import Content from "./Content";
 
-export default function Desiccant(){
-    return (
-        <div>
-            <DesHero />
-            <Content />
-        </div>
-    )
+export default function Desiccant() {
+  return (
+    <div>
+      <Hero />
+      <Content />
+    </div>
+  );
 }

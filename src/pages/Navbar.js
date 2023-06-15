@@ -12,7 +12,7 @@ export default function Navbar() {
   const { t } = useTranslation();
 
   return (
-    <nav className="relative flex flex-wrap justify-between items-center  lg:h-16 z-10">
+    <nav className="relative flex flex-wrap justify-between items-center lg:h-16 z-10">
       <Link to="/" className="text-4xl font-bold flex px-4 py-4 md:py-0">
         JENG JYI
       </Link>
@@ -210,7 +210,7 @@ export default function Navbar() {
             {t("about_us.about us")}
           </Link>
           <div className="lg:hidden inline-flex lg:mr-4   bg-teal-700 text-white px-4 rounded-md justify-center leading-6 h-10 border-0">
-            <button onClick={() => setIsOpen(true)}>Contact us</button>
+            <button onClick={() => setIsOpen(true)}>{t("contact us")}</button>
             <Contactus open={isOpen} onClose={() => setIsOpen(false)} />
           </div>
         </ul>
