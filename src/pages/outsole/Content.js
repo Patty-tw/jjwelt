@@ -14,7 +14,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            {t("stock fitting")}
+            {t("product.stock fitting")}
           </h1>
           <p className="md:w-4/5">
             Leather, rubber and PU outsole assembly with in-house coloring.
@@ -35,7 +35,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            {t("stacked leather")}
+            {t("product.stacked leather")}
           </h1>
           <p className="md:w-4/5">
             Customized stacked leather based on customer's design. Made with
@@ -57,7 +57,7 @@ export default function Content() {
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
-            {t("desiccants")}
+            {t("product.desiccants")}
           </h1>
           <p className="md:w-4/5">
             We supply safe dessicant packs that meets EU standards in various
