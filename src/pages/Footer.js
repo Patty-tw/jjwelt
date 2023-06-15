@@ -11,20 +11,20 @@ export default function Footer() {
   return (
     <>
       <footer className="m-4">
-        <div className="w-4/5  mx-auto md:py-8">
-          <div className="sm:flex sm:items-center sm:justify-between">
-            <Link to="/" className="flex items-center mb-4 sm:mb-0">
+        <div className="w-full md:w-4/5 mx-auto md:py-8">
+          <div className="flex flex-wrap justify-between items-center">
+            <Link to="/" className="flex items-center">
               <img
                 src="./images/jjwelt-logo.png"
                 className="h-10 mr-3"
                 alt="logo"
               />
-              <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
+              <span className="self-center text-lg md:text-xl lg:text-2xl font-semibold whitespace-nowrap">
                 Jeng Jyi
               </span>
             </Link>
 
-            <ul className="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+            <ul className="flex flex-wrap text-sm font-medium text-gray-500 items-center">
               <li>
                 <Link to="/aboutus" className="mr-4 hover:underline md:mr-6">
                   {t("about_us.about us")}
