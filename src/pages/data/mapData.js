@@ -1,14 +1,14 @@
 export const mapData = [
   {
     id: 1,
-    country: "Taiwan",
+    country: "about_us.taiwan",
     name: "Ever Luck Company Limited",
-    present:
-      "Ever Luck was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers in welt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded ourproduction into outsole stockfitting and leather heel cover production.",
-    opening: "9am - 5pm",
-    road: "No. 3, Alley 2, Lane 569, Caoxi Rd",
-    suburb: "Caotun Township",
-    city: "Nantou County",
+    present: "about_us.present tw",
+    opening: "about_us.opening",
+    address: "about_us.address",
+    road: "about_us.road tw",
+    suburb: "about_us.suburb tw",
+    city: "about_us.city tw",
     phone: "+886 970417511",
     center: { lat: 23.96747, lng: 120.67532 },
     zoom: 11,
@@ -16,11 +16,11 @@ export const mapData = [
 
   {
     id: 2,
-    country: "Vietnam",
+    country: "about_us.vietnam",
     name: "Cong Ty Chanh Kiet",
-    present:
-      "With the first wave of foreign investment into Vietnam, we initiated and branched out another factory to Vietnam in 1999. As we expanded, we started manufacturing leather heel covers and outsole stockfitting. Our Binh Duong, Vietnam factory is close to major airport and shipping port.",
-    opening: "9am - 5pm",
+    present: "about_us.present vn",
+    opening: "about_us.opening",
+    address: "about_us.address",
     road: "DT 743, Song Than Industrial Area",
     district: "Binh Duong",
     phone: "+84 916-810445",

@@ -1,6 +1,7 @@
 import React from "react";
 import { Tab } from "@headlessui/react";
 import { mapData } from "../data/mapData";
+import { useTranslation } from "react-i18next";
 import { GoogleMap, MarkerF, LoadScript } from "@react-google-maps/api";
 
 function classNames(...classes) {
@@ -12,6 +13,7 @@ export default function Map(props) {
     width: "100%",
     height: "400px",
   };
+  const { t } = useTranslation();
   return (
     <div>
       <div className="w-4/5 mx-auto">
@@ -30,7 +32,7 @@ export default function Map(props) {
                   )
                 }
               >
-                {country}
+                {t(country)}
               </Tab>
             ))}
           </Tab.List>
@@ -50,7 +52,7 @@ export default function Map(props) {
                   </h1>
                   <br />
                   <p className="text-justify md:max-w-md lg:max-w-2xl mx-auto text-base md:text-lg lg:text-xl leading-relaxed">
-                    {posts.present}
+                    {t(posts.present)}
                   </p>
                 </div>
                 <div className="mt-10 md:max-w-md lg:max-w-2xl mx-auto">
@@ -64,19 +66,14 @@ export default function Map(props) {
                     </GoogleMap>
                   </LoadScript>
                 </div>
-                <div className="basis-1/2 text-center text-base md:text-lg lg:text-xl leading-relaxed">
+                <div className="m-3 text-base md:text-lg lg:text-xl mx-auto md:max-w-md lg:max-w-2xl leading-relaxed text-center">
                   <br />
-                  <p>Opening hours: {posts.opening}</p>
+                  <p>{t(posts.opening)}</p>
                   <p>
-                    Address: {posts.road} <br />
+                    {t(posts.address)}: {t(posts.road)} <br />
                   </p>
-                  <p>
-                    {posts.suburb && <p> {posts.suburb}</p>}
-                    {posts.district && <p> {posts.district}</p>}
-                    {posts.city && <p> {posts.city}</p>}
-                    {posts.country} <br />
-                    {posts.phone}
-                  </p>
+                  {t(posts.country)} <br />
+                  {posts.phone}
                 </div>
               </Tab.Panel>
             ))}
