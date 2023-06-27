@@ -14,6 +14,9 @@ export default function Testimonial() {
         <ul className="md:text-lg lg:text-2xl py-5">Coach</ul>
         <ul className="md:text-lg lg:text-2xl py-5">Zara</ul>
         <ul className="md:text-lg lg:text-2xl py-5">Lacoste</ul>
+        <ul className="md:text-lg lg:text-2xl py-5">Puma</ul>
+        <ul className="md:text-lg lg:text-2xl py-5">Addidas</ul>
+        <ul className="md:text-lg lg:text-2xl py-5">Nike</ul>
       </div>
     </div>
   );
