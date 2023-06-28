@@ -8,7 +8,7 @@ export default function Content() {
     <div className="grid md:grid-rows-2 md:gap-10 md:px-5 leading-relaxed mt-10">
       <div className="md:grid md:grid-cols-2 md:items-center">
         <img
-          src="https://picsum.photos/500?random=1"
+          src="./images/leather-welt-1.jpg"
           alt="dessicant"
           className="w-full md:mx-auto px-5"
         />
