@@ -7,26 +7,22 @@ export default function Gallery() {
         Gallery
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-10 justify-items-center lg:px-10">
-        <img
-          src="./images/leather-welt-1.jpg"
-          alt="leather-welt-4"
-          className=" aspect-square object-scale-down"
-        />
-        <img
+        <img src="./images/20230628_103737.jpg" alt="leather-welt-1" />
+        <img src="./images/20230628_103309.jpg" alt="leather-welt-3" />
+        <img src="./images/20230628_103437.jpg" alt="leather-welt-5" />
+        <img src="./images/20230628_103514.jpg" alt="leather-welt-5" />
+        <img src="./images/20230628_103620.jpg" alt="leather-welt-5" />
+
+        {/* <img
           src="./images/leather-welt-2.jpg"
           alt="leather-welt-2"
-          className="rotate-90 aspect-square object-scale-down"
-        />
-        <img
-          src="./images/leather-welt-3.jpg"
-          alt="leather-welt-3"
-          className="rotate-90 aspect-square object-scale-down"
+          // className="rotate-90 aspect-square object-center object-cover"
         />
         <img
           src="./images/leather-welt-4.jpg"
           alt="leather-welt-4"
-          className="rotate-90 aspect-square object-scale-down"
-        />
+          // className="rotate-90 aspect-square object-center object-cover"
+        /> */}
       </div>
     </div>
   );
