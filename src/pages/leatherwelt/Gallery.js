@@ -12,17 +12,7 @@ export default function Gallery() {
         <img src="./images/20230628_103437.jpg" alt="leather-welt-5" />
         <img src="./images/20230628_103514.jpg" alt="leather-welt-5" />
         <img src="./images/20230628_103620.jpg" alt="leather-welt-5" />
-
-        {/* <img
-          src="./images/leather-welt-2.jpg"
-          alt="leather-welt-2"
-          // className="rotate-90 aspect-square object-center object-cover"
-        />
-        <img
-          src="./images/leather-welt-4.jpg"
-          alt="leather-welt-4"
-          // className="rotate-90 aspect-square object-center object-cover"
-        /> */}
+        <img src="./images/S__4309057.jpg" alt="leather-welt-6" />
       </div>
     </div>
   );

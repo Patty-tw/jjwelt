@@ -14,8 +14,8 @@ export default function Gallery() {
         <div className="max-w-sm rounded overflow-hidden shadow-lg object-cover object-center">
           <Link to="/leather-welt">
             <img
-              className="w-full"
-              src="https://picsum.photos/500?random=1"
+              className="w-[375px] h-[250px]"
+              src="./images/leather-welt-1.jpg"
               alt="leather welt"
             />
             <p className="flex font-bold items-center justify-center h-20">
@@ -23,11 +23,11 @@ export default function Gallery() {
             </p>
           </Link>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg object-cover object-center">
           <Link to="/leatherboard-welt">
             <img
-              className="w-full"
-              src="https://picsum.photos/500?random=6"
+              className="w-[375px] h-[250px]"
+              src="./images/20230628_082425.jpg"
               alt="leatherboard welt"
             />
             <p className="flex font-bold items-center justify-center h-20">
@@ -35,7 +35,7 @@ export default function Gallery() {
             </p>
           </Link>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Link to="/plastic-welt">
             <img
               className="w-full"
@@ -46,12 +46,12 @@ export default function Gallery() {
               {t("product.plastic welt")}
             </p>
           </Link>
-        </div>
+        </div> */}
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Link to="/stacked-leather">
             <img
-              className="w-full"
-              src="https://picsum.photos/500?random=3"
+              className="w-[375px] h-[250px]"
+              src="./images/S__4309005.jpg"
               alt="stacked leather"
             />
             <p className="flex font-bold items-center justify-center h-20">
@@ -59,7 +59,7 @@ export default function Gallery() {
             </p>
           </Link>
         </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Link to="/outsole-stock-fitting">
             <img
               className="w-full"
@@ -70,8 +70,8 @@ export default function Gallery() {
               {t("product.stock fitting")}
             </p>
           </Link>
-        </div>
-        <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        </div> */}
+        {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Link to="/desiccant">
             <img
               className="w-full"
@@ -82,7 +82,7 @@ export default function Gallery() {
               {t("product.desiccants")}
             </p>
           </Link>
-        </div>
+        </div> */}
       </div>
     </div>
   );
