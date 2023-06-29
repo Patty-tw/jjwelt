@@ -71,18 +71,6 @@ export default function Gallery() {
             </p>
           </Link>
         </div> */}
-        {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
-          <Link to="/desiccant">
-            <img
-              className="w-full"
-              src="https://picsum.photos/500?random=5"
-              alt="desiccant"
-            />
-            <p className="flex font-bold items-center justify-center h-20">
-              {t("product.desiccants")}
-            </p>
-          </Link>
-        </div> */}
       </div>
     </div>
   );

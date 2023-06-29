@@ -13,6 +13,7 @@ export default function Gallery() {
         <img src="./images/20230628_103514.jpg" alt="leather-welt-5" />
         <img src="./images/20230628_103620.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309057.jpg" alt="leather-welt-6" />
+        <img src="./images/S__4309056.jpg" alt="leather-welt-6" />
       </div>
     </div>
   );

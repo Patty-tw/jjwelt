@@ -186,7 +186,7 @@ export default function Navbar() {
                             </Link>
                           )}
                         </Menu.Item>
-                        <Menu.Item>
+                        {/* <Menu.Item>
                           {({ active }) => (
                             <Link
                               to="/desiccant"
@@ -197,7 +197,7 @@ export default function Navbar() {
                               {t("product.desiccants")}
                             </Link>
                           )}
-                        </Menu.Item>
+                        </Menu.Item> */}
                       </div>
                     </Menu.Items>
                   </Transition>
