@@ -15,7 +15,7 @@ export default function Gallery() {
           <Link to="/leather-welt">
             <img
               className="w-[375px] h-[250px]"
-              src="./images/leather-welt-1.jpg"
+              src="./images/S__4309080.jpg"
               alt="leather welt"
             />
             <p className="flex font-bold items-center justify-center h-20">
@@ -51,7 +51,7 @@ export default function Gallery() {
           <Link to="/stacked-leather">
             <img
               className="w-[375px] h-[250px]"
-              src="./images/S__4309005.jpg"
+              src="./images/S__4309074.jpg"
               alt="stacked leather"
             />
             <p className="flex font-bold items-center justify-center h-20">
