@@ -59,18 +59,18 @@ export default function Gallery() {
             </p>
           </Link>
         </div>
-        {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Link to="/outsole-stock-fitting">
             <img
-              className="w-full"
-              src="https://picsum.photos/500?random=4"
+              className="w-[375px] h-[250px]"
+              src="./images/S__4309142.jpg"
               alt="outsole stock fitting"
             />
             <p className="flex font-bold items-center justify-center h-20">
               {t("product.stock fitting")}
             </p>
           </Link>
-        </div> */}
+        </div>
       </div>
     </div>
   );
