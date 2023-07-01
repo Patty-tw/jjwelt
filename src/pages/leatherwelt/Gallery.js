@@ -12,7 +12,6 @@ export default function Gallery() {
         <img src="./images/20230628_103437.jpg" alt="leather-welt-5" />
         <img src="./images/20230628_103514.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309083.jpg" alt="leather-welt-5" />
-
         <img src="./images/20230628_103620.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309081.jpg" alt="leather-welt-6" />
         <img src="./images/S__4309082.jpg" alt="leather-welt-6" />

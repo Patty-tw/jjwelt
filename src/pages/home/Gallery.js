@@ -51,7 +51,7 @@ export default function Gallery() {
           <Link to="/stacked-leather">
             <img
               className="w-[375px] h-[250px]"
-              src="./images/S__4309074.jpg"
+              src="./images/S__4309225.jpg"
               alt="stacked leather"
             />
             <p className="flex font-bold items-center justify-center h-20">
