@@ -17,6 +17,9 @@ export default function Gallery() {
         <img src="./images/S__4309221.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309222.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309223.jpg" alt="leather-welt-5" />
+        <img src="./images/S__4309075.jpg" alt="leather-welt-5" />
+        <img src="./images/S__4309076.jpg" alt="leather-welt-5" />
+        <img src="./images/S__4309077.jpg" alt="leather-welt-5" />
       </div>
     </div>
   );
