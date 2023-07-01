@@ -6,8 +6,8 @@ export default function Gallery() {
       <h1 className="text-center text-2xl md:text-[26px] lg:text-[30px] my-[45px]">
         Gallery
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 p-10 justify-items-center lg:px-10">
-        <img src="./images/S__4309213.jpg" alt="leather-welt-1" />
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-[60px] p-10 justify-items-center lg:px-10">
+        {/* <img src="./images/S__4309213.jpg" alt="leather-welt-1" />
         <img src="./images/S__4309215.jpg" alt="leather-welt-3" />
         <img src="./images/S__4309216.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309217.jpg" alt="leather-welt-4" />
@@ -20,11 +20,11 @@ export default function Gallery() {
         <img src="./images/S__4309075.jpg" alt="leather-welt-11" />
         <img src="./images/S__4309076.jpg" alt="leather-welt-12" />
         <img src="./images/S__4309077.jpg" alt="leather-welt-13" />
-        <br />
+        <br /> */}
         <img
           src="./images/UEXxRMBtkyUPBie.png"
           alt="leather-welt-1"
-          className="aspect-square object-center object-contain"
+          className="aspect-square object-center object-scale-down"
         />
         <img
           src="./images/VkVFEpxEJDYySSP.png"
