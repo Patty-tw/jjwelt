@@ -10,6 +10,9 @@ export default function Gallery() {
         <img src="./images/S__4309213.jpg" alt="leather-welt-1" />
         <img src="./images/S__4309215.jpg" alt="leather-welt-3" />
         <img src="./images/S__4309216.jpg" alt="leather-welt-5" />
+        <img src="./images/UEXxRMBtkyUPBie.png" alt="leather-welt-5" />
+        <img src="./images/VkVFEpxEJDYySSP.png" alt="leather-welt-5" />
+        <img src="./images/VewIPOnXQZpNfzB.png" alt="leather-welt-5" />
         <img src="./images/S__4309217.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309218.jpg" alt="leather-welt-5" />
         <img src="./images/S__4309219.jpg" alt="leather-welt-5" />
