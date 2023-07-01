@@ -12,6 +12,8 @@ export default function StockFitting() {
         <img src="./images/20230627_104048.jpg" alt="outsole1" />
         <img src="./images/20230627_104151.jpg" alt="outsole2" />
         <img src="./images/20230627_104316.jpg" alt="outsole3" />
+        <img src="./images/S__4309135.jpg" alt="outsole4" />
+        <img src="./images/S__4309143.jpg" alt="outsole4" />
       </div>
       <h1 className="text-center text-2xl md:text-[26px] lg:text-[30px] mt-10 mb-10">
         {t("stock_fitting.men")}
@@ -21,9 +23,13 @@ export default function StockFitting() {
         <img src="./images/20230627_090902.jpg" alt="outsole2" />
         <img src="./images/20230627_090320.jpg" alt="outsole3" />
         <img src="./images/20230627_085430.jpg" alt="outsole4" />
-        <img src="./images/20230627_090504.jpg" alt="outsole5" />
+        {/* <img src="./images/20230627_090504.jpg" alt="outsole5" /> */}
         <img src="./images/20230627_103832.jpg" alt="outsole6" />
         <img src="./images/20230627_103702.jpg" alt="outsole7" />
+        <img src="./images/S__4309144.jpg" alt="outsole7" />
+        <img src="./images/S__4309146.jpg" alt="outsole7" />
+        <img src="./images/S__4309147.jpg" alt="outsole7" />
+        <img src="./images/S__4309148.jpg" alt="outsole7" />
       </div>
     </div>
   );
