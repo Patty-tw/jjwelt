@@ -24,7 +24,7 @@ export default function Gallery() {
         <img
           src="./images/UEXxRMBtkyUPBie.png"
           alt="leather-welt-1"
-          className="aspect-square object-center object-scale-down"
+          className="aspect-square object-center scale-75"
         />
         <img
           src="./images/VkVFEpxEJDYySSP.png"

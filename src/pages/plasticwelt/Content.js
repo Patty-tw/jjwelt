@@ -10,7 +10,7 @@ export default function Content() {
         <img
           src="https://picsum.photos/500?random=1"
           alt="dessicant"
-          className="w-full md:mx-auto px-5"
+          className="w-4/5 md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
@@ -25,7 +25,7 @@ export default function Content() {
         <img
           src="https://picsum.photos/500?random=2"
           alt="dessicant"
-          className="w-full md:mx-auto px-5"
+          className="w-4/5 md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
@@ -40,7 +40,7 @@ export default function Content() {
         <img
           src="https://picsum.photos/500?random=3"
           alt="dessicant"
-          className="w-full md:mx-auto px-5"
+          className="w-4/5 md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
@@ -55,7 +55,7 @@ export default function Content() {
         <img
           src="https://picsum.photos/500?random=4"
           alt="dessicant"
-          className="w-full md:mx-auto px-5"
+          className="w-4/5 md:mx-auto px-5"
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
