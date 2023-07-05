@@ -35,18 +35,18 @@ export default function Gallery() {
             </p>
           </Link>
         </div>
-        {/* <div className="max-w-sm rounded overflow-hidden shadow-lg">
+        <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Link to="/plastic-welt">
             <img
               className="w-full"
-              src="https://picsum.photos/500?random=2"
+              src="./images/20230703_140106.jpg"
               alt="plastic welt"
             />
             <p className="flex font-bold items-center justify-center h-20">
               {t("product.plastic welt")}
             </p>
           </Link>
-        </div> */}
+        </div>
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
           <Link to="/stacked-leather">
             <img

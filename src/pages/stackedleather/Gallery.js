@@ -7,21 +7,26 @@ export default function Gallery() {
         Gallery
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10 md:gap-[60px] p-10 justify-items-center lg:px-10">
-        {/* <img src="./images/S__4309213.jpg" alt="leather-welt-1" />
-        <img src="./images/S__4309215.jpg" alt="leather-welt-3" />
-        <img src="./images/S__4309216.jpg" alt="leather-welt-5" />
+        <img src="./images/S__4309213.jpg" alt="leather-welt-1" />
+        <img src="./images/S__4309215.jpg" alt="leather-welt-2" />
+        <img src="./images/S__4309216.jpg" alt="leather-welt-3" />
         <img src="./images/S__4309217.jpg" alt="leather-welt-4" />
         <img src="./images/S__4309218.jpg" alt="leather-welt-5" />
+        <img src="./images/20230703_144203.jpg" alt="leather-welt-5_1" />
         <img src="./images/S__4309219.jpg" alt="leather-welt-6" />
         <img src="./images/S__4309220.jpg" alt="leather-welt-7" />
+        <img src="./images/20230703_144003.jpg" alt="leather-welt-7_1" />
+
         <img src="./images/S__4309221.jpg" alt="leather-welt-8" />
         <img src="./images/S__4309222.jpg" alt="leather-welt-9" />
         <img src="./images/S__4309223.jpg" alt="leather-welt-10" />
         <img src="./images/S__4309075.jpg" alt="leather-welt-11" />
         <img src="./images/S__4309076.jpg" alt="leather-welt-12" />
+        <img src="./images/20230703_144244.jpg" alt="leather-welt-12_1" />
         <img src="./images/S__4309077.jpg" alt="leather-welt-13" />
-        <br /> */}
-        <img
+        <img src="./images/20230703_144057.jpg" alt="leather-welt-13" />
+        <br />
+        {/* <img
           src="./images/UEXxRMBtkyUPBie.png"
           alt="leather-welt-1"
           className="aspect-square object-center scale-75"
@@ -87,7 +92,7 @@ export default function Gallery() {
           src="./images/YALKPDkDxIpwpxE.png"
           alt="leather-welt-13"
           className="aspect-square object-center object-contain"
-        />
+        /> */}
       </div>
     </div>
   );
