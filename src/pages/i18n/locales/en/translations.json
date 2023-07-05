@@ -1,103 +1,99 @@
 {
-    "home": "Home",
-    "contact us": "Contact us",
-    "testimonial": "Our customers",
-    "details": "Details",
-    "raw material": "Raw Meterial",
-     
-    "product": {
-        "products": "Products",
-        "plastic welt": "Plastic Welt",
-        "welting": "Welting",
-        "overview": "Overview",
-        "leather welt": "Leather Welt",
-        "leatherboard welt": "Leatherboard Welt",
-        "outsole": "Outsole",
-        "stock fitting": "Stock Fitting",
-        "stacked leather": "Stacked Leather",
-        "desiccants": "Desiccants"},
+  "home": "Home",
+  "contact us": "Contact us",
+  "testimonial": "Our customers",
+  "details": "Details",
+  "raw material": "Raw Meterial",
 
-    "about_us": {
-            "about us": "About us",
-            "about our company": "About Our Company",
-            "about us - content": "Since 1989, our company has been a trusted supplier of leather welts and shoe-related components to major global brands. With two strategically located factories in Guangzhou, China, and Ho Chi Minh City, Vietnam, we are committed to providing exceptional service and quick turnaround times to our clients in the shoe-manufacturing industry.",
-            "taiwan": "Taiwan",
-            "vietnam": "Vietnam",
-            "present tw": "Ever Luck was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers in welt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded ourproduction into outsole stockfitting and leather heel cover production.",
-            "present vn": "With the first wave of foreign investment into Vietnam, we initiated and branched out another factory to Vietnam in 1999. As we expanded, we started manufacturing leather heel covers and outsole stockfitting. Our Binh Duong, Vietnam factory is close to major airport and shipping port.",
-            "opening": "Opening: 9am - 5pm",
-            "address": "Address",
-            "road tw": "No. 3, Alley 2, Lane 569, Caoxi Rd, Caotun Township, Nantou County"
-   },
+  "product": {
+    "products": "Products",
+    "plastic welt": "Plastic Welt",
+    "welting": "Welting",
+    "overview": "Overview",
+    "leather welt": "Leather Welt",
+    "leatherboard welt": "Leatherboard Welt",
+    "outsole": "Outsole",
+    "stock fitting": "Stock Fitting",
+    "stacked leather": "Stacked Leather",
+    "desiccants": "Desiccants"
+  },
 
-    "contact_us_form": {
-        "name": "Name",
-        "email": "Email",
-        "enquiry": "Enquiry",
-        "message": "Message",
-        "submit": "Submit", 
-        "general enquiry": "General Enquiry", 
-        "sample request": "Sample Request"
-    },
+  "about_us": {
+    "about us": "About us",
+    "about our company": "About Our Company",
+    "about us - content": "Since 1989, our company has been a trusted supplier of leather welts and shoe-related components to major global brands. With two strategically located factories in Guangzhou, China, and Ho Chi Minh City, Vietnam, we are committed to providing exceptional service and quick turnaround times to our clients in the shoe-manufacturing industry.",
+    "taiwan": "Taiwan",
+    "vietnam": "Vietnam",
+    "present tw": "Ever Luck was first estalished in 1981 in Taiwan. Throughout the years, we have become one of the largest suppliers in welt, supplying to major brands such as Dr. Martens, Timberland, Coach, Zara, Lacotse and many more. We also expanded ourproduction into outsole stockfitting and leather heel cover production.",
+    "present vn": "With the first wave of foreign investment into Vietnam, we initiated and branched out another factory to Vietnam in 1999. As we expanded, we started manufacturing leather heel covers and outsole stockfitting. Our Binh Duong, Vietnam factory is close to major airport and shipping port.",
+    "opening": "Opening: 9am - 5pm",
+    "address": "Address",
+    "road tw": "No. 3, Alley 2, Lane 569, Caoxi Rd, Caotun Township, Nantou County"
+  },
 
-    "plastic_welt_page": {
-        "raw material content": "All our raw materials are tested and conform to the standard set by EU testing requirements, EN 71-3:2013. We stock PVC, TPR, TR, TPU, Rubber materials ready to accommodate customers' needs.",
-        "pvc welt": "PVC Welt",
-        "pvc welt content": "We use only environmental-friendly PVC raw material for our welt. PVC welt is lowest in price among other plastic materials.",
-        "tr, tpr, tpu welt": "TR, TPR, TPU Welt",
-        "tr, tpr, tpu welt content": "Our company stock a wide variety of materials to dedicate to each customer's needs.",
-        "colour welt": "Multi-colour welt and Combination welt",
-        "colour welt content": "Our in-house mold shop and our experience allow us to produce multi-color welt through co-extrusion. Our company is able to produce 2-color, 3-color, and/or PVC+leather welt as specified by customers."
-    },
+  "contact_us_form": {
+    "name": "Name",
+    "email": "Email",
+    "enquiry": "Enquiry",
+    "message": "Message",
+    "submit": "Submit",
+    "general enquiry": "General Enquiry",
+    "sample request": "Sample Request"
+  },
 
-    "welting_page":{
-        "leather welt content": "Classic welt made from the finest selection of leather. The premium look and feel is an essential element in the overall quality of high-end dress shoes and boots.",
-        "leatherboard welt content": "Leatherboard welt is a economic alternative to leather welt. The texture and feel closely mimics that of leather counterpart."
-    },
+  "plastic_welt_page": {
+    "pvc welt": "PVC Welt",
+    "pvc welt content": "We use only environmental-friendly PVC raw material for our welt. PVC welt is lowest in price among other plastic materials. All our raw materials are tested and conform to the standard set by EU testing requirements, EN 71-3:2013. We stock PVC, TPR, TR, TPU, Rubber materials ready to accommodate customers' needs.",
+    "tr, tpr, tpu welt": "TR, TPR, TPU Welt",
+    "tr, tpr, tpu welt content": "Our company stock a wide variety of materials to dedicate to each customer's needs. Our in-house mold shop and our experience allow us to produce multi-color welt through co-extrusion. Our company is able to produce 2-color, 3-color, and/or PVC+leather welt as specified by customers."
+  },
 
-    "leather_welt":{
-        "material" : "Raw Material",
-        "material content" : "Our premium vegetable-tanned leather is carefully sourced from diverse locations worldwide. We value and embrace the distinctive color tone variations that arise in leather from different regions. To fulfill the diverse demands of our customers, our factory meticulously selects the finest quality leather from renowned origins, including Italy, Argentina, and Brazil. This meticulous selection guarantees our ability to meet all product styles with exceptional materials.",
-        "machine": "Italian Imported Machinery",
-        "machine content": "We have made significant investments in precision machines directly imported from Italy, ensuring the highest level of craftsmanship possible.",
-        "customise": "Customisation",
-        "customise content": "Our team of skilled technicians excels in accommodating a wide range of design preferences, offering limitless possibilities. Whether it's Goodyear stitching, wheeling, pre-stitching, color customization, antiquing effects, or any other special effects, we have the expertise to achieve them in-house."
-    },
+  "welting_page": {
+    "leather welt content": "Classic welt made from the finest selection of leather. The premium look and feel is an essential element in the overall quality of high-end dress shoes and boots.",
+    "leatherboard welt content": "Leatherboard welt is a economic alternative to leather welt. The texture and feel closely mimics that of leather counterpart."
+  },
 
-    "leatherboard_welt":{
-        "production": "Production of leatherboard",
-        "production content": "Extrusion is a key process in the production of leatherboard welt. Leather fibers and binders are mixed and melted in an extruder, then shaped through a die to create the desired welt shape. The extruded material is cooled, cut, and finished to meet quality standards. This efficient and customizable process yields a durable and versatile component for use in footwear manufacturing.",
-        "material" : "Raw Material",
-        "material content" : "Our premium bonded leather material is carefully sourced from Italy and Germany. The raw material is created by blending leather scrap with other proprietary mixtures to achieve a luxurious leather-like texture. The material is available in various thicknesses ranging from 2.0mm to 5.0mm, with increments of 0.5mm.",
-        "machine": "Italian Imported Machinery",
-        "machine content": "We have invested in precision machines imported directly from Italy. Similar to our leather welts, all bonded leather welts are meticulously crafted and processed using the same state-of-the-art Italian machinery, ensuring consistent quality throughout the manufacturing process.",
-        "customise": "Customisation",
-        "customise content": "Our experienced technicians have the capability to spray paint the welt in any desired color and finish, whether it's a solid hue, polka-dots, antiqued appearance, or even a faux-leather effect. This flexibility allows for endless customization options. In addition to the customization in color and finish, we can also tailor the welt to any design and dimensions to meet our customers' specific requirements. This makes our welts a great alternative for those seeking a premium leather-like feel at a more affordable price point."
-    },
+  "leather_welt": {
+    "material": "Raw Material",
+    "material content": "Our premium vegetable-tanned leather is carefully sourced from diverse locations worldwide. We value and embrace the distinctive color tone variations that arise in leather from different regions. To fulfill the diverse demands of our customers, our factory meticulously selects the finest quality leather from renowned origins, including Italy, Argentina, and Brazil. This meticulous selection guarantees our ability to meet all product styles with exceptional materials.",
+    "machine": "Italian Imported Machinery",
+    "machine content": "We have made significant investments in precision machines directly imported from Italy, ensuring the highest level of craftsmanship possible.",
+    "customise": "Customisation",
+    "customise content": "Our team of skilled technicians excels in accommodating a wide range of design preferences, offering limitless possibilities. Whether it's Goodyear stitching, wheeling, pre-stitching, color customization, antiquing effects, or any other special effects, we have the expertise to achieve them in-house."
+  },
 
-    "stock_fitting":{
-        "women": "Women's Outsole",
-        "men": "Men's Outsole"
-    },
+  "leatherboard_welt": {
+    "production": "Production of leatherboard",
+    "production content": "Extrusion is a key process in the production of leatherboard welt. Leather fibers and binders are mixed and melted in an extruder, then shaped through a die to create the desired welt shape. The extruded material is cooled, cut, and finished to meet quality standards. This efficient and customizable process yields a durable and versatile component for use in footwear manufacturing.",
+    "material": "Raw Material",
+    "material content": "Our premium bonded leather material is carefully sourced from Italy and Germany. The raw material is created by blending leather scrap with other proprietary mixtures to achieve a luxurious leather-like texture. The material is available in various thicknesses ranging from 2.0mm to 5.0mm, with increments of 0.5mm.",
+    "machine": "Italian Imported Machinery",
+    "machine content": "We have invested in precision machines imported directly from Italy. Similar to our leather welts, all bonded leather welts are meticulously crafted and processed using the same state-of-the-art Italian machinery, ensuring consistent quality throughout the manufacturing process.",
+    "customise": "Customisation",
+    "customise content": "Our experienced technicians have the capability to spray paint the welt in any desired color and finish, whether it's a solid hue, polka-dots, antiqued appearance, or even a faux-leather effect. This flexibility allows for endless customization options. In addition to the customization in color and finish, we can also tailor the welt to any design and dimensions to meet our customers' specific requirements. This makes our welts a great alternative for those seeking a premium leather-like feel at a more affordable price point."
+  },
 
-    "stacked_leather": {
-        "raw material content": "We start with highest quality vegetable tanned leather sourced directly and only from major tanneries in Italy. All our raw materials have been tested. Test reports can be provided upon request.",
-        "colours": "Colours",
-        "colours content": "We stock multiple colors of raw material which includes Black, Brown, Natural and White. We source our brown and natural color from three different tanneries each as we there are slight variation in tone. We understand this subtle difference will affect the results and we will choose one that most closely resembles what our customers try to achieve.",
-        "customise": "Customisation",
-        "customise content": "Our experienced technicians carefully craft the leather pieces base on the heel samples provided. We have over 25 years of experience and whether customer are seeking simple heels like kitten and pumps heels or more complicated wedge and stiletto heels, we are sure our company can meet customers' demands.",
-        "quality": "Quality Outcome",
-        "quality content": "With our in-house coloring and finishing, our company are able to provide even the most complicated designs customers. From two color leather heel covers to vertical-arranged heel covers, we are open and always seeking new ways to create more designs."
-    },
+  "stock_fitting": {
+    "women": "Women's Outsole",
+    "men": "Men's Outsole"
+  },
 
-    "desiccant": {
-        "raw material content": "Our silica gel is Directive 2011/65/EU certified and does not contain Lead, Mercury, Cadmium and hazardous materials set by RoHS.",
-        "size and packaging": "Various Sizes and Packaging",
-        "size content": "Sizes: We are able to produce sizes ranging from 1g, 2g, 3G, 4G, 5g, 6g, 10g, 20g, 30g, 50g, 100g, 200g, 500g, 1000g.",
-        "packing content": "Packing material: Compound paper, filter paper, non-woven paper.",
-        "text": "Printed Text: We have a wide selection of languages printed on the packing which includes English, Chinese, French, German etc.",
-        "ordering info": "Ordering Infomation: Minimum order is 10000 pieces, increments of 100. Rate: $60/10000pcs(3g) , negotiable with volume."
-    }
+  "stacked_leather": {
+    "raw material content": "We start with highest quality vegetable tanned leather sourced directly and only from major tanneries in Italy. All our raw materials have been tested. Test reports can be provided upon request.",
+    "colours": "Colours",
+    "colours content": "We stock multiple colors of raw material which includes Black, Brown, Natural and White. We source our brown and natural color from three different tanneries each as we there are slight variation in tone. We understand this subtle difference will affect the results and we will choose one that most closely resembles what our customers try to achieve.",
+    "customise": "Customisation",
+    "customise content": "Our experienced technicians carefully craft the leather pieces base on the heel samples provided. We have over 25 years of experience and whether customer are seeking simple heels like kitten and pumps heels or more complicated wedge and stiletto heels, we are sure our company can meet customers' demands.",
+    "quality": "Quality Outcome",
+    "quality content": "With our in-house coloring and finishing, our company are able to provide even the most complicated designs customers. From two color leather heel covers to vertical-arranged heel covers, we are open and always seeking new ways to create more designs."
+  },
 
-
+  "desiccant": {
+    "raw material content": "Our silica gel is Directive 2011/65/EU certified and does not contain Lead, Mercury, Cadmium and hazardous materials set by RoHS.",
+    "size and packaging": "Various Sizes and Packaging",
+    "size content": "Sizes: We are able to produce sizes ranging from 1g, 2g, 3G, 4G, 5g, 6g, 10g, 20g, 30g, 50g, 100g, 200g, 500g, 1000g.",
+    "packing content": "Packing material: Compound paper, filter paper, non-woven paper.",
+    "text": "Printed Text: We have a wide selection of languages printed on the packing which includes English, Chinese, French, German etc.",
+    "ordering info": "Ordering Infomation: Minimum order is 10000 pieces, increments of 100. Rate: $60/10000pcs(3g) , negotiable with volume."
+  }
 }

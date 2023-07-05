@@ -6,7 +6,7 @@ export default function Content() {
 
   return (
     <div className="grid md:grid-cols-2  leading-relaxed mt-10">
-      <div className="w-4/5 mx-auto my-5 ">
+      {/* <div className="w-4/5 mx-auto my-5 ">
         <img
           src="https://picsum.photos/500?random=1"
           alt="dessicant"
@@ -18,7 +18,7 @@ export default function Content() {
           </p>
           <p>{t("plastic_welt_page.raw material content")}</p>
         </div>
-      </div>
+      </div> */}
       <div className="w-4/5 mx-auto my-5 ">
         <img
           src="https://picsum.photos/500?random=2"
@@ -34,8 +34,8 @@ export default function Content() {
       </div>
       <div className="mx-auto w-4/5 my-5">
         <img
-          src="https://picsum.photos/500?random=3"
-          alt="dessicant"
+          src="./images/20230703_135542.jpg"
+          alt="tr, tpr, tpu welt"
           className="mx-auto"
         />
         <div className="md:max-w-md mx-auto mt-5">
@@ -45,7 +45,7 @@ export default function Content() {
           <p>{t("plastic_welt_page.tr, tpr, tpu welt content")}</p>
         </div>
       </div>
-      <div className="mx-auto w-4/5 my-5">
+      {/* <div className="mx-auto w-4/5 my-5">
         <img
           src="https://picsum.photos/500?random=4"
           alt="dessicant"
@@ -57,7 +57,7 @@ export default function Content() {
           </h1>
           <p>{t("plastic_welt_page.colour welt content")}</p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
