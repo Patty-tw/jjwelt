@@ -31,12 +31,12 @@ export default function Gallery() {
         {/* <img
           src="./images/UEXxRMBtkyUPBie.png"
           alt="leather-welt-1"
-          className="aspect-square object-center scale-75"
+          className="aspect-square object-center scale-75 "
         />
         <img
           src="./images/VkVFEpxEJDYySSP.png"
           alt="leather-welt-2"
-          className="aspect-square object-center object-contain"
+          className="aspect-square object-center object-contain "
         />
         <img
           src="./images/VewIPOnXQZpNfzB.png"

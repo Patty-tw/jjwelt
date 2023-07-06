@@ -16,21 +16,21 @@ export default function Content() {
         </h1>
         <h2 className="text-ccl">{t("stock_fitting.auto vibrating knife")}</h2>
         <br />
-        <div className="grid md:grid-cols-3">
+        <div className="grid md:grid-cols-3 gap-5">
           <img
             src="./images/ebzWrqdtMKGobXM.png"
-            alt="dessicant"
-            className="w-full md:mx-auto px-5"
+            alt="stock-fitting-1"
+            className="w-4/5 md:w-full mx-auto px-5"
           />
           <img
             src="./images/GmcGEHebZtLtIcT.png"
-            alt="dessicant"
-            className="w-full md:mx-auto px-5"
+            alt="stock-fitting-2"
+            className="w-4/5 md:w-full mx-auto px-5"
           />
           <img
             src="./images/bsoJOgBIPSETltX.png"
-            alt="dessicant"
-            className="w-full md:mx-auto px-5"
+            alt="stock-fitting-"
+            className="w-4/5 md:w-full mx-auto px-5"
           />
         </div>
       </div>

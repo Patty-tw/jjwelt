@@ -30,7 +30,6 @@ export default function Gallery() {
         <img src="./images/S__4309146.jpg" alt="outsole7" />
         <img src="./images/S__4309147.jpg" alt="outsole7" />
         <img src="./images/S__4309148.jpg" alt="outsole7" />
-        <img src="./images/bsoJOgBIPSETltX.png" alt="outsole7" />
       </div>
     </div>
   );
