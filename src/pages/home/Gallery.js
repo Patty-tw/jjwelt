@@ -63,7 +63,7 @@ export default function Gallery() {
           <Link to="/outsole-stock-fitting">
             <img
               className="w-[375px] h-[250px]"
-              src="./images/S__4309142.jpg"
+              src="./images/S__4333703.jpg"
               alt="outsole stock fitting"
             />
             <p className="flex font-bold items-center justify-center h-20">

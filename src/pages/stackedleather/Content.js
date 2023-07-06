@@ -23,7 +23,7 @@ export default function Content() {
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
         <img
-          src="https://picsum.photos/500?random=2"
+          src="./images/S__4333697.jpg"
           alt="colors of stacked leather"
           className="w-full md:mx-auto px-5"
         />
@@ -36,7 +36,7 @@ export default function Content() {
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center">
         <img
-          src="https://picsum.photos/500?random=3"
+          src="./images/S__4333686.jpg"
           alt="customisation of stacked leather"
           className="w-full md:mx-auto px-5"
         />

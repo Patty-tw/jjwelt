@@ -10,7 +10,7 @@ export default function Content() {
         <img
           src="./images/leather-welt-1.jpg"
           alt="dessicant"
-          className="w-full md:mx-auto px-5"
+          className="w-full h-4/5 md:mx-auto px-5 object-contain"
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
@@ -40,9 +40,9 @@ export default function Content() {
       </div>
       <div className="md:grid md:grid-cols-2 md:items-center ">
         <img
-          src="https://picsum.photos/500?random=2"
+          src="./images/S__4333708.jpg"
           alt="dessicant"
-          className="w-full md:mx-auto px-5"
+          className="w-full h-4/5 md:mx-auto px-5 object-contain"
         />
         <div className="md:ml-10 p-5 mx-auto">
           <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
