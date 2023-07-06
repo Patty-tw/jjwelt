@@ -5,8 +5,8 @@ export default function Content() {
   const { t } = useTranslation();
 
   return (
-    <div className="grid md:grid-rows-4 md:gap-10 md:px-5 leading-relaxed mt-10">
-      <div className="md:grid md:grid-cols-2 md:items-center">
+    <div className="grid md:grid-cols-2 leading-relaxed mt-10">
+      {/* <div className="md:grid md:grid-cols-2 md:items-center">
         <img
           src="https://picsum.photos/500?random=5"
           alt="raw material of stacked leather"
@@ -20,8 +20,8 @@ export default function Content() {
             {t("stacked_leather.raw material content")}
           </p>
         </div>
-      </div>
-      <div className="md:grid md:grid-cols-2 md:items-center">
+      </div> */}
+      <div className="w-4/5 mx-auto my-5">
         <img
           src="./images/S__4333697.jpg"
           alt="colors of stacked leather"
@@ -34,7 +34,7 @@ export default function Content() {
           <p className="md:w-4/5">{t("stacked_leather.colours content")}</p>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-2 md:items-center">
+      <div className="w-4/5 mx-auto my-5">
         <img
           src="./images/S__4333686.jpg"
           alt="customisation of stacked leather"
@@ -47,7 +47,7 @@ export default function Content() {
           <p className="md:w-4/5">{t("stacked_leather.customise content")}</p>
         </div>
       </div>
-      <div className="md:grid md:grid-cols-2 md:items-center">
+      <div className="w-4/5 mx-auto my-5">
         <img
           src="https://picsum.photos/500?random=4"
           alt="quality outcome of stacked"

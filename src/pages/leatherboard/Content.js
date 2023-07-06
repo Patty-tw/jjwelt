@@ -4,7 +4,7 @@ import { useTranslation } from "react-i18next";
 export default function Content() {
   const { t } = useTranslation();
   return (
-    <div className="grid md:grid-cols-2  leading-relaxed mt-10">
+    <div className="grid md:grid-cols-2 leading-relaxed mt-10">
       <div className="w-4/5 mx-auto my-5">
         <img src="./images/DSC01020.jpg" alt="dessicant" className="mx-auto" />
         <div className="md:max-w-md mx-auto mt-5">
