@@ -26,7 +26,10 @@ export default function Gallery() {
         {/* <img src="./images/20230627_090504.jpg" alt="outsole5" /> */}
         <img src="./images/20230627_103832.jpg" alt="outsole6" />
         <img src="./images/20230627_103702.jpg" alt="outsole7" />
-        <img src="./images/S__4309144.jpg" alt="outsole7" />
+        <img src="./images/20230703_143851.jpg" alt="outsole7" />
+        <img src="./images/20230703_143800.jpg" alt="outsole7" />
+        <img src="./images/20230703_143817.jpg" alt="outsole7" />
+        <img src="./images/20230703_143843(0).jpg" alt="outsole7" />
         <img src="./images/S__4309146.jpg" alt="outsole7" />
         <img src="./images/S__4309147.jpg" alt="outsole7" />
         <img src="./images/S__4309148.jpg" alt="outsole7" />
