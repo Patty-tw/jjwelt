@@ -8,13 +8,9 @@ export default function Testimonial() {
       <h1 className="text-2xl md:text-[26px] lg:text-[30px] text-center mt-10 md:mb-10">
         {t("testimonial")}
       </h1>
-      <div className="grid grid-cols-4 px-10 items-center justify-items-center justify-between just">
-        <img
-          src="./images/footjoy.png"
-          alt="timberland"
-          className="w-96 scale-50"
-        />
-        <img src="./images/adidas.png" alt="adidas" className="w-96 scale-50" />
+      <div className="grid grid-cols-4 px-10 items-center justify-items-center justify-between">
+        <img src="./images/footjoy.png" alt="foot joy" className="w-1/2" />
+        <img src="./images/adidas.png" alt="adidas" className="w-1/2" />
         <img src="./images/caleres.png" alt="asics" className="scale-[.6]" />
         <img
           src="./images/clarks-logo.png"
