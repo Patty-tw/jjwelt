@@ -7,7 +7,7 @@ export default function Gallery() {
 
   return (
     <div>
-      <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px] text-center mt-10 md:mb-10">
+      <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px] text-center md:mb-10">
         {t("product.products")}
       </h1>
       <div className="grid grid-cols-auto-fit gap-10 px-10 justify-items-center">
