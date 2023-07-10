@@ -14,7 +14,7 @@ export default function Content() {
         <h1 className="text-2xl pb-2.5 md:text-[26px] lg:text-[30px]">
           {t("stock_fitting.customise")}
         </h1>
-        <h2 className="text-ccl">{t("stock_fitting.auto vibrating knife")}</h2>
+        <h2 className="text-xl">{t("stock_fitting.auto vibrating knife")}</h2>
         <br />
         <div className="grid md:grid-cols-3 gap-5">
           <img
