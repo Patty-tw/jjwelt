@@ -77,7 +77,10 @@
     "women": "Women's Outsole",
     "men": "Men's Outsole",
     "customise": "Customisation",
-    "auto vibrating knife": "Automatic vibrating knife"
+    "auto vibrating knife": "Automatic vibrating knife",
+    "cnc": "CNC Automatic Cutting and Grooving Machine",
+    "semi-automatic edger": "Semi-automatic edger",
+    "automatic edging machine": "Automatic edging machine"
   },
 
   "stacked_leather": {

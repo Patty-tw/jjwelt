@@ -81,7 +81,10 @@
     "women": "女士大底",
     "men": "男士大底",
     "customise": "客製化",
-    "auto vibrating knife": "自動震動刀"
+    "auto vibrating knife": "自動震動刀",
+    "cnc": "CNC 自動切割挖槽機",
+    "semi-automatic edger": "半自動磨邊機",
+    "automatic edging machine": "自動磨邊機"
   },
 
   "stacked_leather": {
