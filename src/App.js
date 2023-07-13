@@ -14,6 +14,9 @@ import Outsole from "./pages/outsole/Outsole";
 import Footer from "./pages/Footer";
 import StockFitting from "./pages/stockfitting/StockFitting";
 import Language from "./pages/Language";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_CODE);
 
 export default function App() {
   const { pathname } = useLocation();
@@ -22,23 +25,27 @@ export default function App() {
     window.scrollTo(0, 0);
   }, [pathname]);
 
+  ReactGA.send(window.location.pathname);
+
   return (
-    <main>
-      <Language />
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/aboutus" element={<Aboutus />} />
-        <Route path="/welting" element={<Welting />} />
-        <Route path="/leather-welt" element={<LeatherWelt />} />
-        <Route path="/leatherboard-welt" element={<LeatherBoard />} />
-        <Route path="/plastic-welt" element={<PlasticWelt />} />
-        <Route path="/stacked-leather" element={<StackedLeather />} />
-        <Route path="/desiccant" element={<Desiccant />} />
-        <Route path="/outsole" element={<Outsole />} />
-        <Route path="/outsole-stock-fitting" element={<StockFitting />} />
-      </Routes>
-      <Footer />
-    </main>
+    <>
+      <main>
+        <Language />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/aboutus" element={<Aboutus />} />
+          <Route path="/welting" element={<Welting />} />
+          <Route path="/leather-welt" element={<LeatherWelt />} />
+          <Route path="/leatherboard-welt" element={<LeatherBoard />} />
+          <Route path="/plastic-welt" element={<PlasticWelt />} />
+          <Route path="/stacked-leather" element={<StackedLeather />} />
+          <Route path="/desiccant" element={<Desiccant />} />
+          <Route path="/outsole" element={<Outsole />} />
+          <Route path="/outsole-stock-fitting" element={<StockFitting />} />
+        </Routes>
+        <Footer />
+      </main>
+    </>
   );
 }
