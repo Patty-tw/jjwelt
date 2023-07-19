@@ -45,9 +45,6 @@ export default function Navbar() {
         }`}
       >
         <ul className="px-4 py-2 lg:text-lg lg:flex lg:items-center lg:gap-x-14 leading-relaxed">
-          <Link to="/" className="flex py-2">
-            {t("home")}
-          </Link>
           <Link to="/plastic-welt" className="flex py-2">
             {t("product.plastic welt")}
           </Link>
