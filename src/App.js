@@ -16,8 +16,7 @@ import StockFitting from "./pages/stockfitting/StockFitting";
 import Language from "./pages/Language";
 import ReactGA from "react-ga4";
 
-// ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_CODE);
-ReactGA.initialize("G-JQYZ19F81P");
+ReactGA.initialize(process.env.REACT_APP_GA_TRACKING_CODE);
 
 export default function App() {
   const { pathname } = useLocation();
